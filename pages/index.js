@@ -1,35 +1,12 @@
-import Page from "./components/Page";
+import BackgroundPage from "./components/BackgroundPage";
 import Banner from "./components/Banner";
-
-import '../css/custom.css';
-import Header from "./components/Header";
+import Title from "./components/includes/Title";
 
 const Index = () => (
-    <Page>
-        <div className="flex">
-            <Header className="transparent"/>
-            <div className="flexItem">
-                <Banner/>
-            </div>
-        </div>
-        <style jsx>{`
-            .flex {
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                background-image: url("img/background-small.jpg");
-                background-position: 40% 80%;
-                background-repeat: no-repeat;
-                background-color: var(--dark);
-            }
-            
-            .flexItem {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-            }
-        `}</style>
-    </Page>
+    <BackgroundPage>
+        <Title/>
+        <Banner/>
+    </BackgroundPage>
 );
 
 export default Index;

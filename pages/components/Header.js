@@ -23,7 +23,27 @@ const Header = props => (
                         <Link href="/music/novah" passHref>
                             <NavDropdown.Item>NOVAH</NavDropdown.Item>
                         </Link>
+                        <Link href="/music/film-score" passHref>
+                            <NavDropdown.Item>Film Score</NavDropdown.Item>
+                        </Link>
+                        <Link href="/music/geocentricfools" passHref>
+                            <NavDropdown.Item>Geocentric Fools</NavDropdown.Item>
+                        </Link>
+                        <Link href="/music/dasattva" passHref>
+                            <NavDropdown.Item>Dasattva</NavDropdown.Item>
+                        </Link>
+                        <Link href="/music/nitamas" passHref>
+                            <NavDropdown.Item>Nitamas</NavDropdown.Item>
+                        </Link>
+                        <Link href="/music/elrajas" passHref>
+                            <NavDropdown.Item>Elrajas</NavDropdown.Item>
+                        </Link>
                     </NavDropdown>
+                </Nav>
+                <Nav>
+                    <Link href="/contact" passHref>
+                        <Nav.Link>Contact</Nav.Link>
+                    </Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

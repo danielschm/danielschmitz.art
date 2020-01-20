@@ -1,6 +1,7 @@
-import Includes from './Includes';
+import Includes from './includes/Includes';
 
 import '../../css/litera.css';
+import '../../css/custom.css';
 
 const Page = props => (
     <div className="page">

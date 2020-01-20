@@ -1,9 +1,8 @@
-import Page from "../components/Page";
+import BackgroundPage from "../components/BackgroundPage";
+import "./music.css";
 
-const MusicPage = object => (
-    <Page>
-
-    </Page>
-);
-
-export default MusicPage;
+export default props => (
+    <BackgroundPage>
+        {props.children}
+    </BackgroundPage>
+)
