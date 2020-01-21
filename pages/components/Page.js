@@ -1,5 +1,6 @@
 import '../../css/litera.css';
 import '../../css/custom.css';
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import Header from "./Header";
 import Includes from './includes/Includes';
 
