@@ -70,10 +70,5 @@ export default () => (
             translate-24h.de</a>
             <br/><br/>
         </Container>
-        <style jsx>{`
-            p {
-                color: rgba(255,255,255,0.6) !important;
-            }
-        `}</style>
     </Page>
 )

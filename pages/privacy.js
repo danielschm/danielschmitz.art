@@ -200,10 +200,5 @@ export default () => (
 
             <p>This document was last updated on January 21, 2020</p>
         </Container>
-        <style jsx>{`
-            p {
-                color: rgba(255,255,255,0.6) !important;
-            }
-        `}</style>
     </Page>
 )
