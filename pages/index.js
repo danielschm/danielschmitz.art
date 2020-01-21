@@ -1,12 +1,12 @@
-import BackgroundPage from "./components/BackgroundPage";
 import Banner from "./components/Banner";
 import Title from "./components/includes/Title";
+import Page from "./components/Page";
 
 const Index = () => (
-    <BackgroundPage>
+    <Page>
         <Title/>
         <Banner/>
-    </BackgroundPage>
+    </Page>
 );
 
 export default Index;

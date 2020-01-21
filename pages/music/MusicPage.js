@@ -1,8 +1,10 @@
-import BackgroundPage from "../components/BackgroundPage";
+import Page from "../components/Page";
 import "./music.css";
 
 export default props => (
-    <BackgroundPage>
+    <Page>
+        <div className="musicPage">
         {props.children}
-    </BackgroundPage>
+        </div>
+    </Page>
 )

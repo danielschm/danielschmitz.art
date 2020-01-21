@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Header = props => (
     <div>
-        <Navbar className={props.className} bg="dark" variant="dark" expand="lg">
+        <Navbar className={props.className} bg="dark" variant="dark" expand="lg" sticky="top">
             <Link href="/" passHref>
                 <Navbar.Brand href="/">Daniel Schmitz</Navbar.Brand>
             </Link>
@@ -18,6 +18,9 @@ const Header = props => (
                     </Link>
                     <Link href="/about" passHref>
                         <Nav.Link>About</Nav.Link>
+                    </Link>
+                    <Link href="/portfolio" passHref>
+                        <Nav.Link>Portfolio</Nav.Link>
                     </Link>
                     <NavDropdown title="Music" id="basic-nav-dropdown">
                         <Link href="/music/novah" passHref>
@@ -41,6 +44,12 @@ const Header = props => (
                     </NavDropdown>
                 </Nav>
                 <Nav>
+                    <Link href="/privacy" passHref>
+                        <Nav.Link>Privacy</Nav.Link>
+                    </Link>
+                    <Link href="/legal-disclosure" passHref>
+                        <Nav.Link>Legal Disclosure</Nav.Link>
+                    </Link>
                     <Link href="/contact" passHref>
                         <Nav.Link>Contact</Nav.Link>
                     </Link>

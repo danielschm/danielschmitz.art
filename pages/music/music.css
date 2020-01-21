@@ -1,4 +1,4 @@
-img {
+.musicPage img {
     float: left;
     height: 10rem;
     width: 10rem;
@@ -6,21 +6,21 @@ img {
     margin-bottom: 1.5rem;
 }
 
-.description {
+.musicPage .description {
     line-height: 1.8;
 }
 
-.socialIcons a {
+.musicPage .socialIcons a {
     color: rgba(255, 255, 255, 0.88);
     margin: 0 1rem;
     transition: color 600ms ease;
 }
 
-.socialIcons a:hover {
+.musicPage .socialIcons a:hover {
     color: #007BFF;
 }
 
-.subtitle {
+.musicPage .subtitle {
     text-transform: uppercase;
     font-weight: 400;
     margin: -0.6rem 0 1rem 0;

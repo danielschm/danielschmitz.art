@@ -1,38 +1,23 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faSpotify} from "@fortawesome/free-brands-svg-icons/faSpotify";
-import {faSoundcloud} from "@fortawesome/free-brands-svg-icons/faSoundcloud";
-import {faFacebook} from "@fortawesome/free-brands-svg-icons/faFacebook";
-import {faYoutube} from "@fortawesome/free-brands-svg-icons/faYoutube";
-import {faTwitter} from "@fortawesome/free-brands-svg-icons/faTwitter";
 import MusicPage from "./MusicPage";
 import Title from "../components/includes/Title";
 
 import Container from "react-bootstrap/Container";
+import SocialIcon from "../components/SocialIcon";
 
 const Index = () => (
     <MusicPage>
         <Title page="NOVAH"/>
-        <Container className="text-light">
+        <Container>
             <h1>NOVAH</h1>
             <h2 className="subtitle">Electronic Music & Beats</h2>
             <div className="description">
                 <img src="/img/music/novah.jpg"/>
                 <div className="socialIcons">
-                    <a href="https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8" target="_blank">
-                        <FontAwesomeIcon icon={faSpotify} size="2x"/>
-                    </a>
-                    <a href="https://www.soundcloud.com/novahofficial" target="_blank">
-                        <FontAwesomeIcon icon={faSoundcloud} size="2x"/>
-                    </a>
-                    <a href="https://www.facebook.com/novahmusic" target="_blank">
-                        <FontAwesomeIcon icon={faFacebook} size="2x"/>
-                    </a>
-                    <a href="https://www.youtube.com/c/novahmusic" target="_blank">
-                        <FontAwesomeIcon icon={faYoutube} size="2x"/>
-                    </a>
-                    <a href="https://www.twitter.com/novahofficial" target="_blank">
-                        <FontAwesomeIcon icon={faTwitter} size="2x"/>
-                    </a>
+                    <SocialIcon spotify="https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8" size="2x"/>
+                    <SocialIcon soundcloud="https://www.soundcloud.com/novahofficial" size="2x"/>
+                    <SocialIcon facebook="https://www.facebook.com/novahmusic" size="2x"/>
+                    <SocialIcon youtube="https://www.youtube.com/c/novahmusic" size="2x"/>
+                    <SocialIcon twitter="https://www.twitter.com/novahofficial" size="2x"/>
                 </div>
                 <br/>
                 When I started producing music in 2012 I called myself NovahMedia. Some time later I changed

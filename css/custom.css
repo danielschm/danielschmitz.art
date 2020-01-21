@@ -1,6 +1,18 @@
 html, body, #__next {
     height: 100%;
-    background-color: black;
+}
+
+body {
+    color: #f9f9f9;
+    background-image: url("/img/background-small.jpg");
+    background-position: 40% 80%;
+    background-repeat: no-repeat;
+    background-color: var(--dark);
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f4f4f4;
 }
 
 .transparent {

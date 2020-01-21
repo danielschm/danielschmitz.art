@@ -1,4 +1,4 @@
-import BackgroundPage from "./components/BackgroundPage";
+import Page from "./components/Page";
 import Title from "./components/includes/Title";
 
 import Link from "next/link";
@@ -10,9 +10,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const Index = () => (
-    <BackgroundPage>
+    <Page>
         <Title page="About"/>
-        <Container className="text-light">
+        <Container>
             <Row>
                 <Col>
                     <h1>About</h1>
@@ -118,13 +118,16 @@ const Index = () => (
             
             img {
                 border-radius: 10rem;
+                height: 10rem;
                 width: 10rem;
+                min-width: 10rem;
+                min-height: 10rem;
                 float: left;
                 margin-right: 2rem;
                 margin-bottom: 1.5rem;
             }
         `}</style>
-    </BackgroundPage>
+    </Page>
 );
 
 export default Index;

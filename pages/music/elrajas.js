@@ -1,34 +1,21 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faSoundcloud} from "@fortawesome/free-brands-svg-icons/faSoundcloud";
-import {faFacebook} from "@fortawesome/free-brands-svg-icons/faFacebook";
-import {faMixcloud} from "@fortawesome/free-brands-svg-icons/faMixcloud";
-import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
-
 import Title from "../components/includes/Title";
 import Container from "react-bootstrap/Container";
 import MusicPage from "./MusicPage";
+import SocialIcon from "../components/SocialIcon";
 
 const Index = () => (
     <MusicPage>
         <Title page="Elrajas"/>
-        <Container className="text-light">
+        <Container>
             <h1>Nitamas</h1>
             <h2 className="subtitle">Organica & Tribal Techno</h2>
             <div className="description">
                 <img src="/img/music/elrajas.jpg"/>
                 <div className="socialIcons">
-                    <a href="https://www.soundcloud.com/elrajas" target="_blank">
-                        <FontAwesomeIcon icon={faSoundcloud} size="2x"/>
-                    </a>
-                    <a href="https://www.mixcloud.com/elrajas" target="_blank">
-                        <FontAwesomeIcon icon={faMixcloud} size="2x"/>
-                    </a>
-                    <a href="https://www.instagram.com/elrajasmusic" target="_blank">
-                        <FontAwesomeIcon icon={faInstagram} size="2x"/>
-                    </a>
-                    <a href="https://www.facebook.com/elrajasmusic" target="_blank">
-                        <FontAwesomeIcon icon={faFacebook} size="2x"/>
-                    </a>
+                    <SocialIcon soundcloud="https://www.soundcloud.com/elrajas" size="2x"/>
+                    <SocialIcon mixcloud="https://www.mixcloud.com/elrajas" size="2x"/>
+                    <SocialIcon instagram="https://www.instagram.com/elrajasmusic" size="2x"/>
+                    <SocialIcon facebook="https://www.facebook.com/elrajasmusic" size="2x"/>
                 </div>
                 <br/>
                 Elrajas was created in 2018 for Techno music with tribal and world music influences.
