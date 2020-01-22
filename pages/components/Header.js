@@ -43,6 +43,9 @@ const Header = props => (
                         </Link>
                     </NavDropdown>
                 </Nav>
+                <div className="divider">
+                    <div></div>
+                </div>
                 <Nav>
                     <Link href="/privacy" passHref>
                         <Nav.Link>Privacy</Nav.Link>
@@ -50,12 +53,25 @@ const Header = props => (
                     <Link href="/legal-disclosure" passHref>
                         <Nav.Link>Legal Disclosure</Nav.Link>
                     </Link>
-                    <Link href="/contact" passHref>
-                        <Nav.Link>Contact</Nav.Link>
-                    </Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+        <style jsx>{`
+            @media (max-width: 1060px) {
+                .divider {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                
+                .divider div {
+                    margin: 5px 0.5rem 5px 0;
+                    height: 1px;                    
+                    width: 5rem;
+                    background: rgba(255,255,255,0.2);        
+                }
+            }
+        `}</style>
     </div>
 );
 

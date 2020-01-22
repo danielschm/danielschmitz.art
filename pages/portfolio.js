@@ -3,9 +3,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Page from "./components/Page";
+import Title from "./components/includes/Title";
 
 const Index = () => (
     <Page>
+        <Title page="Portfolio"/>
         <Container>
             <h1>Portfolio</h1>
             <Row>

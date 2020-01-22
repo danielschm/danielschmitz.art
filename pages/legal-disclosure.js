@@ -1,8 +1,10 @@
 import Container from "react-bootstrap/Container";
 import Page from "./components/Page";
+import Title from "./components/includes/Title";
 
 export default () => (
     <Page>
+        <Title page="Legal Disclosure"/>
         <Container>
             <h1>Legal Disclosure</h1>
             Information in accordance with Section 5 TMG

@@ -27,15 +27,19 @@ const Index = () => (
                     </div>
                     <h6>Studies</h6>
                     <p>
-                        I am currently studying <a
-                        href="https://weiterbildung.uni-muenster.de/masterstudiengaenge/master-informationsmanagement-it-management/"
-                        target="_blank">IT Management</a> at the University of Münster with a focus on Data
-                        Science.
+                        After graduating with a Bachelor of Science degree in Business IT, I started a Master's
+                        degree in IT Management at the University of Münster with a focus on Data Science.
                     </p>
                     <h6>Hobbies</h6>
                     <p>
                         In my free time however, I'm a passionate Music Producer & DJ but also interested in
                         all kinds of creative work.
+                        For almost 10 years I have been working as a music producer and audio engineer on several
+                        projects including <Link href="/portfolio" passHref><a>short films and YouTube
+                        videos</a></Link>. But I've spent most of my time with creating music for my various 'artist
+                        aliases' which you can discover in the <Link href="/music/novah" passHref><a>music
+                        area</a></Link> of this website.
+                        .
                     </p>
                 </Col>
                 <Col>

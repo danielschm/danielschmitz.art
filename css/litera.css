@@ -4901,6 +4901,7 @@ input[type="button"].btn-block {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    text-align: right;
 }
 
 .navbar-toggler {
@@ -5042,7 +5043,18 @@ input[type="button"].btn-block {
     }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1060px) {
+    .dropdown-menu {
+        text-align: right;
+    }
+
+    .dropdown-item {
+        background: transparent;
+    }
+}
+
+@media (min-width: 1060px) {
+
     .navbar-expand-lg {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;

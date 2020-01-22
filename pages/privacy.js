@@ -1,9 +1,11 @@
 import Container from "react-bootstrap/Container";
 import Page from "./components/Page";
 import Link from "next/link";
+import Title from "./components/includes/Title";
 
 export default () => (
     <Page>
+        <Title page="Privacy policy"/>
         <Container>
             <h1>Privacy policy</h1>
 
