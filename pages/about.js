@@ -39,7 +39,6 @@ const Index = () => (
                         videos</a></Link>. But I've spent most of my time with creating music for my various 'artist
                         aliases' which you can discover in the <Link href="/music/novah" passHref><a>music
                         area</a></Link> of this website.
-                        .
                     </p>
                 </Col>
                 <Col>

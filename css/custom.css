@@ -7,7 +7,7 @@ body {
     background-image: url("/img/background-small.jpg");
     background-position: 40% 80%;
     background-repeat: no-repeat;
-    background-color: var(--dark);
+    background-color: black;
     background-attachment: fixed;
 }
 
