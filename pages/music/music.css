@@ -10,6 +10,10 @@
     line-height: 1.8;
 }
 
+.musicPage .socialIcons {
+    margin-bottom: 1rem;
+}
+
 .musicPage .socialIcons a {
     color: rgba(255, 255, 255, 0.88);
     margin: 0 1rem;

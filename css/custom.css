@@ -3,18 +3,32 @@ html, body, #__next {
 }
 
 body {
-    color: #f9f9f9;
+    color: #c7c7c7;
+    color: var(--text);
     background-image: url("/img/background-small.jpg");
     background-position: 40% 80%;
     background-repeat: no-repeat;
     background-color: black;
     background-attachment: fixed;
+    line-height: 1.8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #f4f4f4;
+    color: white;
+    color: var(--headings);
 }
 
 .transparent {
     background-color: transparent !important;
+}
+
+.portfolioButton {
+    color: #ffffff;
+    background-color: #02050a;
+    border-color: #3f77da;
+}
+
+.portfolioButton:hover {
+    background-color: #050c18;
+    border-color: #ffffff;
 }

@@ -73,10 +73,10 @@ const Index = () => (
                     <PortfolioReference
                         tag="dev"
                         title="Web Development"
-                        text="This website is completely self-made by using Next.js, React and Bootstrap"
-                        button="View Next.js"
-                        image="img/portfolio/website.jpg"
-                        link="https://www.nextjs.org"/>
+                        text="www.geocentricfools.com created by using Next.js, React and Bootstrap"
+                        button="View Website"
+                        image="img/portfolio/geocentricfools.com.jpg"
+                        link="https://geocentricfools.com"/>
                 </Col>
                 <Col>
                     <PortfolioReference

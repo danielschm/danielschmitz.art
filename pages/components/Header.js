@@ -19,6 +19,9 @@ const Header = props => (
                     <Link href="/about" passHref>
                         <Nav.Link>About</Nav.Link>
                     </Link>
+                    <Link href="/things-i-do" passHref>
+                        <Nav.Link>Things I Do</Nav.Link>
+                    </Link>
                     <Link href="/portfolio" passHref>
                         <Nav.Link>Portfolio</Nav.Link>
                     </Link>
