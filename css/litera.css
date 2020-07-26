@@ -5418,7 +5418,7 @@ input[type="button"].btn-block {
 
 .card-img-top {
     transition: filter 400ms ease;
-    filter: sepia(1) hue-rotate(150deg) brightness(0.8);
+    filter: brightness(0.4);
 }
 
 .card-img-overlay {

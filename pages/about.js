@@ -19,14 +19,13 @@ const Index = () => (
                     <img src="/img/avatar.jpg"/>
                     <div className="avatarText">
                         <div>
-                            My name is Daniel Schmitz and I'm a SAP Full Stack Developer at <a
-                            href="https://www.gicom.org/en/" target="_blank">gicom GmbH</a> near Cologne, Germany.
+                            My name is Daniel Schmitz and I'm a <b>Software Developer</b> and <br/><b>Music Producer</b> living in Cologne, Germany.
                         </div>
                     </div>
                 </div>
                 <h6>Studies</h6>
                 <p>
-                    After graduating with a Bachelor of Science degree in Business IT, I started a Master's
+                    After my Bachelor's degree in Business IT, I'm currently doing my Master's
                     degree in IT Management at the University of Münster with a focus on Data Science.
                 </p>
                 <h6>Hobbies</h6>

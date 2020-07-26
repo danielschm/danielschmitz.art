@@ -47,7 +47,7 @@ const Index = () => (
                         text="Audio mix & production of sound design for the CGI short film 'Protectors of the Earth'"
                         button="Watch on YouTube"
                         image="img/portfolio/heavenandearth.jpg"
-                        link="https://www.youtube.com/watch?v=zDKUIaeSmow&"/>
+                        link="https://www.youtube.com/watch?v=0yyJm-L-W5w&"/>
                 </Col>
                 <Col>
                     <PortfolioReference

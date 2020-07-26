@@ -29,11 +29,18 @@ export default () => (
                     </a>
                 </div>
             </div>
+            <a style={{"margin-left": 0}}
+               href={"https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8?si=rGuUg40hT_elRVIe4A6kqQ"}
+               target={"_blank"}>
+                <Button className="bannerButton">
+                    <span>Check Out My Music</span>
+                    {/*<FontAwesomeIcon className="navIcon" icon={faArrowRight}/>*/}
+                </Button>
+            </a>
             <Link href="/about" passHref>
                 <a>
-                    <Button className="aboutButton">
-                        <span className="buttonText">About</span>
-                        <FontAwesomeIcon className="navIcon" icon={faArrowRight}/>
+                    <Button id="secondaryButton" style={{background: "transparent"}}>
+                        <span>About Me</span>
                     </Button>
                 </a>
             </Link>
@@ -83,11 +90,11 @@ export default () => (
                 color: var(--primary);
             }
             
-            .aboutButton {
+            .bannerButton {
                 font-weight: 500 !important;
             }
             
-            .buttonText {
+            .textMargin {
                 margin-right: 0.5rem;
             }
         `}</style>
