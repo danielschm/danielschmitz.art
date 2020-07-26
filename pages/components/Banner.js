@@ -13,7 +13,7 @@ export default () => (
             <div className="banner text-light">
                 <div>Hey, I am</div>
                 <h1>Daniel</h1>
-                <p>Full-Stack Developer & Producer / DJ</p>
+                <p>Software Developer & Producer / DJ</p>
                 <div className="socialIcons">
                     <a href="https://linkedin.com/in/daniel-schmitz-dev" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} size="lg"/>
