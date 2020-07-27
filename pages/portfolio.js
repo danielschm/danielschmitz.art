@@ -44,7 +44,7 @@ const Index = () => (
                     <PortfolioReference
                         tag="filmproduction"
                         title="Sound Design"
-                        text="Audio mix & production of sound design for the CGI short film 'Protectors of the Earth'"
+                        text="Audio mix & production of sound design for the CGI short film 'Heaven and Earth'"
                         button="Watch on YouTube"
                         image="img/portfolio/heavenandearth.jpg"
                         link="https://www.youtube.com/watch?v=0yyJm-L-W5w&"/>
