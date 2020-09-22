@@ -7,25 +7,32 @@ export default () => (
         <Title page="Legal Disclosure"/>
         <Container>
             <h1>Legal Disclosure</h1>
+            <p>
             Information in accordance with Section 5 TMG
-            <br/>
-            <br/>
-            Krummbachweg 8
-            <br/>
-            53819 Neunkirchen-Seelscheid
-            <br/>
-            Germany
-            <br/>
-            <h2>Represented by</h2>
-            Daniel Schmitz
-            <h2>Contact Information</h2>
-            Telephone: +49 176 57826463
-            <br/>
-            E-Mail: <a href="mailto:contact@danielschmitz.art">contact@danielschmitz.art</a>
-            <br/>
-            Internet address: <a href="https://danielschmitz.art"
-                                 target="_blank">https://danielschmitz.art</a>
-            <br/>
+            </p>
+            <p>
+                Gerottener Weg 27
+                <br/>
+                51503 Rösrath
+                <br/>
+                Germany
+            </p>
+            <p>
+                <b>Represented by</b>
+                <br/>
+                Daniel Schmitz
+            </p>
+            <p>
+                <b>Contact Information</b>
+                <br/>
+                Telephone: +49 176 57826463
+                <br/>
+                E-Mail: <a href="mailto:contact@danielschmitz.art">contact@danielschmitz.art</a>
+                <br/>
+                Internet address: <a href="https://danielschmitz.art"
+                                     target="_blank">https://danielschmitz.art</a>
+                <br/>
+            </p>
             <h2>Disclaimer</h2>
             <b>Accountability for content</b><br/>
             The contents of our pages have been created with the utmost care. However,
