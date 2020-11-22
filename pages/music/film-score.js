@@ -17,8 +17,7 @@ const Index = () => (
                 <SocialIcon youtube="https://www.youtube.com/channel/UCfN8lJJeDvrQzxjKiMRgZvw" size="2x"/>
             </div>
             As the artist "Daniel Schmitz" I'm sharing my film score compositions. I especially like composing
-            Fantasy, Celtic and Emotional Symphonic Orchestral Music. My plan is to upload music more constantly
-            in the future.
+            Fantasy, Celtic and Emotional Symphonic Orchestral Music.
         </div>
     </MusicPage>
 );

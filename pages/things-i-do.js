@@ -50,22 +50,46 @@ const Index = () => (
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>Music Production</h6>
-                            using Studio One 4. I'm been experienced in producing a wide range of Electronic Music
+                            using Studio One 4 for more than 10 years. I've been experienced in producing a wide range of Electronic Music
                             genres but I also produce film score. <Link href="/music/novah" passHref><a>Read
-                            more...</a></Link>
+                            more...</a></Link><br/>
+                            <strong>Skills</strong>
+                            <ul>
+                                <li>Producing</li>
+                                <li>Audio Mixing</li>
+                                <li>Mastering</li>
+                                <li>Electronic Sound Design</li>
+                                <li>Music Theory</li>
+                            </ul>
+                            <strong>Instruments</strong>
+                            <ul>
+                                <li>Keyboard</li>
+                                <li>Guitar</li>
+                            </ul>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>DJing</h6>
-                            <a href="https://www.pioneerdj.com/de-de/product/all-in-one-system/archive/xdj-rx/black/overview/"
-                               target="_blank">Pioneer XDJ-RX</a> - Goa/Psytrance, Techno/Techhouse, Dubstep/DnB
+                            <ul>
+                                <li>Psytrance</li>
+                                <li>Techno</li>
+                                <li>House</li>
+                                <li>Drum'n'Bass</li>
+                            </ul>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>Graphic Design</h6>
-                            Social Media Design and Color Correction with Adobe Photoshop
+                            <ul>
+                                <li>Social Media Design</li>
+                                <li>Layouting (Websites, Frontends, UIs)</li>
+                                <li>Color Correction</li>
+                            </ul>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>Film Production</h6>
-                            Adobe Premiere & Adobe After Effects
+                            <ul>
+                                <li>Cutting (Adobe Premiere)</li>
+                                <li>Color Correction & Basic Effects (Adobe After Effects)</li>
+                            </ul>
                         </ListGroup.Item>
                     </ListGroup>
                 </CustomContainer>
