@@ -19,7 +19,7 @@ const Index = () => (
                     <img src="/img/avatar2.jpg"/>
                     <div className="avatarText">
                         <div>
-                            My name is Daniel Schmitz and I'm a <b>Software Developer</b> and <br/><b>Music
+                            My name is Daniel Schmitz and I'm a <b>Product Owner</b> and <br/><b>Music
                             Producer</b> living in Cologne, Germany.
                         </div>
                     </div>

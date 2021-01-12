@@ -50,31 +50,54 @@ const Index = () => (
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>Music Production</h6>
-                            using Studio One 4 for more than 10 years. I've been experienced in producing a wide range of Electronic Music
+                            using Studio One 4 for more than 10 years. I've been experienced in producing a wide range
+                            of Electronic Music
                             genres but I also produce film score. <Link href="/music/novah" passHref><a>Read
                             more...</a></Link><br/>
-                            <strong>Skills</strong>
-                            <ul>
-                                <li>Producing</li>
-                                <li>Audio Mixing</li>
-                                <li>Mastering</li>
-                                <li>Electronic Sound Design</li>
-                                <li>Music Theory</li>
-                            </ul>
-                            <strong>Instruments</strong>
-                            <ul>
-                                <li>Keyboard</li>
-                                <li>Guitar</li>
-                            </ul>
+                            <div className={"hbox"}>
+                                <div className={"column"}>
+                                    <strong>Skills</strong>
+                                    <ul>
+                                        <li>Producing</li>
+                                        <li>Audio Mixing</li>
+                                        <li>Mastering</li>
+                                        <li>Sound Design</li>
+                                        <li>Music Theory</li>
+                                    </ul>
+                                </div>
+                                <div className={"column"}>
+                                    <strong>Genres</strong>
+                                    <ul>
+                                        <li>Synth-Pop</li>
+                                        <li>EDM (House, Techno, <br/>Psytrance, Dubstep)</li>
+                                        <li>Film Score</li>
+                                    </ul>
+                                </div>
+                                <div className={"column"}>
+                                    <strong>Instruments</strong>
+                                    <ul>
+                                        <li>Keyboard</li>
+                                        <li>Guitar</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>DJing</h6>
-                            <ul>
-                                <li>Psytrance</li>
-                                <li>Techno</li>
-                                <li>House</li>
-                                <li>Drum'n'Bass</li>
-                            </ul>
+                            <div className={"hbox"}>
+                                <div className={"column"}>
+                                    <ul>
+                                        <li>Psytrance</li>
+                                        <li>Techno</li>
+                                    </ul>
+                                </div>
+                                <div className={"column"}>
+                                    <ul>
+                                        <li>House</li>
+                                        <li>Drum'n'Bass</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>Graphic Design</h6>
@@ -98,6 +121,15 @@ const Index = () => (
         <style jsx>{`
             #list-custom {
                 max-width: 20rem;
+            }
+            
+            .hbox {
+                margin-top: 0.5rem;
+                display: flex;
+            }
+            
+            .hbox .column {
+                margin-right: 4rem;
             }
         `}</style>
     </div>
