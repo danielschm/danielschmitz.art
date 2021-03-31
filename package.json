@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.26",
-    "@fortawesome/free-brands-svg-icons": "^5.12.0",
-    "@fortawesome/free-solid-svg-icons": "^5.12.0",
-    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@zeit/next-css": "^1.0.1",
-    "bootstrap": "^4.4.1",
-    "next": "^9.2.0",
-    "react": "^16.12.0",
-    "react-bootstrap": "^1.0.0-beta.16",
-    "react-dom": "^16.12.0",
+    "bootstrap": "^4.6.0",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^16.14.0",
     "react-social-media-icons": "^1.1.0",
-    "webpack": "^4.41.5"
+    "webpack": "^4.46.0"
   },
   "devDependencies": {},
   "scripts": {
