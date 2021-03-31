@@ -50,7 +50,7 @@ const Index = () => (
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>Music Production</h6>
-                            using Studio One 4 for more than 10 years. I've been experienced in producing a wide range
+                            using <a href="https://www.presonus.com/products/studio-one" target="_blank">Studio One</a> for more than 10 years. I've been experienced in producing a wide range
                             of Electronic Music
                             genres but I also produce film score. <Link href="/music/novah" passHref><a>Read
                             more...</a></Link><br/>

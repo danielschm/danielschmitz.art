@@ -27,16 +27,16 @@ const Index = () => (
                 <h6>Education</h6>
                 <p>
                     <ul className="education">
-                        <li><strong>Bachelor of Science</strong>, Business Information Technology <br/><a
-                                                                                         href="https://www.fhdw.de/"
-                                                                                         target="_blank">FHDW
-                            Fachhochschule der Wirtschaft</a></li>
-                        <li><strong>University Certificate</strong>, Data Science<br/><a
-                                                                        href="https://weiterbildung.uni-muenster.de/"
-                                                                        target="_blank">WWU Universität Münster</a></li>
                         <li><strong>Master of Science</strong> (2021), Information Management <br/><a
                             href="https://weiterbildung.uni-muenster.de/"
                             target="_blank">WWU Universität Münster</a></li>
+                        <li><strong>University Certificate</strong>, Data Science<br/><a
+                            href="https://weiterbildung.uni-muenster.de/"
+                            target="_blank">WWU Universität Münster</a></li>
+                        <li><strong>Bachelor of Science</strong>, Business Information Technology <br/><a
+                            href="https://www.fhdw.de/"
+                            target="_blank">FHDW
+                            Fachhochschule der Wirtschaft</a></li>
                     </ul>
                 </p>
                 <h6>Hobbies</h6>

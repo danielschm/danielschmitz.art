@@ -19,7 +19,7 @@ const Index = () => (
                 <SocialIcon youtube="https://www.youtube.com/channel/UCfN8lJJeDvrQzxjKiMRgZvw" size="2x"/>
             </div>
             Geocentric Fools is a Synth-Pop duo consisting of Matt Platypus and Dan Leo (me). <br/>
-            This is my most recent project so feel free to <a href="https://geocentricfools.com/about" target="_blank">read
+            This is my most recent project so feel free to <a href="https://geocentricfools.com/about/us" target="_blank">read
             more about it</a>.
         </div>
     </MusicPage>
