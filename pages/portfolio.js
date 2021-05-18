@@ -13,6 +13,35 @@ const Index = () => (
             <Row>
                 <Col>
                     <PortfolioReference
+                        tag="film production"
+                        title="Cut & Grading"
+                        text="The music video for 'Fatal Foolness' by Geocentric Fools"
+                        button="Watch on YouTube"
+                        image="img/portfolio/fatalfoolness.jpg"
+                        link="https://www.youtube.com/watch?v=gxuV-gFBHLw"/>
+                </Col>
+                <Col>
+                    <PortfolioReference
+                        tag="film production"
+                        title="Sound Design"
+                        text="Audio mix & production of sound design for the CGI short film 'Heaven and Earth'"
+                        button="Watch on YouTube"
+                        image="img/portfolio/heavenandearth.jpg"
+                        link="https://www.youtube.com/watch?v=0yyJm-L-W5w&"/>
+                </Col>
+                <Col>
+                    <PortfolioReference
+                        tag="film production"
+                        title="Scoring"
+                        text="Composition of film score and audio mix for 'Protectors of the Earth' (~1m Views)"
+                        button="Watch on YouTube"
+                        image="img/portfolio/legomovie.jpg"
+                        link="https://www.youtube.com/watch?v=zDKUIaeSmow&"/>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <PortfolioReference
                         tag="music"
                         title="Music Production"
                         text="For the German Science YouTuber 'Doktor Whatson'"
@@ -42,26 +71,6 @@ const Index = () => (
             <Row>
                 <Col>
                     <PortfolioReference
-                        tag="filmproduction"
-                        title="Sound Design"
-                        text="Audio mix & production of sound design for the CGI short film 'Heaven and Earth'"
-                        button="Watch on YouTube"
-                        image="img/portfolio/heavenandearth.jpg"
-                        link="https://www.youtube.com/watch?v=0yyJm-L-W5w&"/>
-                </Col>
-                <Col>
-                    <PortfolioReference
-                        tag="filmproduction"
-                        title="Score for LEGO Movie"
-                        text="Composition of film score and audio mix for 'Protectors of the Earth' (~1m Views)"
-                        button="Watch on YouTube"
-                        image="img/portfolio/legomovie.jpg"
-                        link="https://www.youtube.com/watch?v=zDKUIaeSmow&"/>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <PortfolioReference
                         tag="dev"
                         title="Castle Wars on Node.js"
                         text="Multiplayer card game using WebSocket technology"
@@ -81,11 +90,11 @@ const Index = () => (
                 <Col>
                     <PortfolioReference
                         tag="dev"
-                        title="In progress..."
-                        text="Currently developing an cookbook application using OpenUI5"
-                        button="View OpenUI5 on Github"
-                        image="img/portfolio/cookbook.jpg"
-                        link="https://github.com/SAP/openui5"/>
+                        title="My GitHub"
+                        text="Small random-purpose projects can be found here"
+                        button="Open GitHub"
+                        image="img/portfolio/github.jpg"
+                        link="https://github.com/danielschm"/>
                 </Col>
             </Row>
         </Container>

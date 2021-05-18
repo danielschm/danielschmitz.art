@@ -9,15 +9,15 @@ const Index = () => (
         <Title page="NOVAH"/>
         <h1>NOVAH</h1>
         <h2 className="subtitle">Electronic Music & Beats</h2>
+        <div className="socialIcons">
+            <SocialIcon spotify="https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8" size="2x"/>
+            <SocialIcon soundcloud="https://www.soundcloud.com/novahofficial" size="2x"/>
+            <SocialIcon facebook="https://www.facebook.com/novahmusic" size="2x"/>
+            <SocialIcon youtube="https://www.youtube.com/c/novahmusic" size="2x"/>
+            <SocialIcon twitter="https://www.twitter.com/novahofficial" size="2x"/>
+        </div>
         <div className="description">
             <img src="/img/music/novah.jpg"/>
-            <div className="socialIcons">
-                <SocialIcon spotify="https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8" size="2x"/>
-                <SocialIcon soundcloud="https://www.soundcloud.com/novahofficial" size="2x"/>
-                <SocialIcon facebook="https://www.facebook.com/novahmusic" size="2x"/>
-                <SocialIcon youtube="https://www.youtube.com/c/novahmusic" size="2x"/>
-                <SocialIcon twitter="https://www.twitter.com/novahofficial" size="2x"/>
-            </div>
             <p>
                 When I started producing music in 2012 I called myself NovahMedia. Some time later I changed
                 the name to NOVAH. "NOVAH", which is derived from the root word "new" in a lot of languages,

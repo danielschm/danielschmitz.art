@@ -19,32 +19,35 @@ const Header = props => (
                     <Link href="/about" passHref>
                         <Nav.Link>About</Nav.Link>
                     </Link>
+                    <Link href="/music" passHref>
+                        <Nav.Link>Music</Nav.Link>
+                    </Link>
                     <Link href="/things-i-do" passHref>
                         <Nav.Link>Things I Do</Nav.Link>
                     </Link>
                     <Link href="/portfolio" passHref>
                         <Nav.Link>Portfolio</Nav.Link>
                     </Link>
-                    <NavDropdown title="Music" id="basic-nav-dropdown">
-                        <Link href="/music/novah" passHref>
-                            <NavDropdown.Item>NOVAH</NavDropdown.Item>
-                        </Link>
-                        <Link href="/music/film-score" passHref>
-                            <NavDropdown.Item>Film Score</NavDropdown.Item>
-                        </Link>
-                        <Link href="/music/geocentricfools" passHref>
-                            <NavDropdown.Item>Geocentric Fools</NavDropdown.Item>
-                        </Link>
-                        <Link href="/music/dasattva" passHref>
-                            <NavDropdown.Item>Dasattva</NavDropdown.Item>
-                        </Link>
-                        <Link href="/music/nitamas" passHref>
-                            <NavDropdown.Item>Nitamas</NavDropdown.Item>
-                        </Link>
-                        <Link href="/music/elrajas" passHref>
-                            <NavDropdown.Item>Elrajas</NavDropdown.Item>
-                        </Link>
-                    </NavDropdown>
+                    {/*<NavDropdown title="Music" id="basic-nav-dropdown">*/}
+                    {/*    <Link href="/music/novah" passHref>*/}
+                    {/*        <NavDropdown.Item>NOVAH</NavDropdown.Item>*/}
+                    {/*    </Link>*/}
+                    {/*    <Link href="/music/film-score" passHref>*/}
+                    {/*        <NavDropdown.Item>Film Score</NavDropdown.Item>*/}
+                    {/*    </Link>*/}
+                    {/*    <Link href="/music/geocentricfools" passHref>*/}
+                    {/*        <NavDropdown.Item>Geocentric Fools</NavDropdown.Item>*/}
+                    {/*    </Link>*/}
+                    {/*    <Link href="/music/dasattva" passHref>*/}
+                    {/*        <NavDropdown.Item>Dasattva</NavDropdown.Item>*/}
+                    {/*    </Link>*/}
+                    {/*    <Link href="/music/nitamas" passHref>*/}
+                    {/*        <NavDropdown.Item>Nitamas</NavDropdown.Item>*/}
+                    {/*    </Link>*/}
+                    {/*    <Link href="/music/elrajas" passHref>*/}
+                    {/*        <NavDropdown.Item>Elrajas</NavDropdown.Item>*/}
+                    {/*    </Link>*/}
+                    {/*</NavDropdown>*/}
                 </Nav>
                 <div className="divider">
                     <div></div>
