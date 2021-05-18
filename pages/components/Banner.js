@@ -29,14 +29,21 @@ export default () => (
                     </a>
                 </div>
             </div>
-            <a style={{"margin-left": 0}}
-               href={"https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8?si=rGuUg40hT_elRVIe4A6kqQ"}
-               target={"_blank"}>
-                <Button className="bannerButton">
-                    <span>Check Out My Music</span>
-                    {/*<FontAwesomeIcon className="navIcon" icon={faArrowRight}/>*/}
-                </Button>
-            </a>
+            {/*<a style={{"margin-left": 0}}*/}
+            {/*   href={"https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8?si=rGuUg40hT_elRVIe4A6kqQ"}*/}
+            {/*   target={"_blank"}>*/}
+            {/*    <Button className="bannerButton">*/}
+            {/*        <span>Check Out My Music</span>*/}
+            {/*        /!*<FontAwesomeIcon className="navIcon" icon={faArrowRight}/>*!/*/}
+            {/*    </Button>*/}
+            {/*</a>*/}
+            <Link href="/music" passHref>
+                <a style={{"margin-left": 0}}>
+                    <Button className="bannerButton">
+                        <span>My Music</span>
+                    </Button>
+                </a>
+            </Link>
             <Link href="/about" passHref>
                 <a>
                     <Button id="secondaryButton" style={{background: "transparent"}}>
