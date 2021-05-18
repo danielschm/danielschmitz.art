@@ -12,8 +12,10 @@ const MusicCard = props => (
                     <h2>{props.title}</h2>
                     <h3 className={"subtitle"}>{props.subtitle}</h3>
                     <div className="socialIcons">
-                        <div className={"icons"}>
-                            <SocialIcon spotify={props.spotify} size="2x"/>
+                        <div className={"spotifyIcon"}>
+                        <SocialIcon spotify={props.spotify} size="2x"/>
+                        </div>
+                        <div className={"facebookIcon"}>
                             <SocialIcon facebook={props.facebook} size="2x"/>
                         </div>
                         <Link href={"/music/" + props.link} passHref>
@@ -42,8 +44,22 @@ const MusicCard = props => (
                     padding-left: 9rem !important;
                 }
                 
-                .musicCard .icons {
+                .musicCard .facebookIcon {
                     display: none;
+                }
+                
+                .musicCard {
+                    height: 8rem !important;
+                }
+            }
+            
+            @media (max-width: 400px) {
+                .musicCard .spotifyIcon {
+                    display: none;
+                }
+                
+                .musicCard .more {
+                    margin-left: 0 !important;
                 }
             }
         
@@ -54,9 +70,10 @@ const MusicCard = props => (
         
             .musicCard .more {
                 color: rgba(255,255,255,0.5);
+                margin-left: 1rem;
                 padding: 0 2rem 0 2rem;
                 line-height: 2;
-                border-right: 2px solid rgba(255,255,255,0.2);
+                border-left: 2px solid rgba(255,255,255,0.2);
                 transition: all 100ms ease;
                 cursor: pointer;
             }
@@ -79,7 +96,7 @@ const MusicCard = props => (
             
             .musicCard .more:hover {
                 color: white;
-                border-right: 2px solid var(--blue);
+                border-left: 2px solid var(--blue);
             }
             
             .musicCard .cardBody {
