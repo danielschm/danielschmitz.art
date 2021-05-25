@@ -18,8 +18,22 @@ const Index = () => (
                         text="The music video for 'Fatal Foolness' by Geocentric Fools"
                         button="Watch on YouTube"
                         image="img/portfolio/fatalfoolness.jpg"
-                        link="https://www.youtube.com/watch?v=gxuV-gFBHLw"/>
+                        link="https://www.youtube.com/watch?v=gxuV-gFBHLw"
+                        year="2021"
+                    />
                 </Col>
+                <Col>
+                    <PortfolioReference
+                        tag="film production"
+                        title="Scoring"
+                        text="Composition of film score and audio mix for the Singold Whisky advertising film"
+                        button="Watch on Vimeo"
+                        image="img/portfolio/whisky.jpg"
+                        link="https://vimeo.com/530317325"
+                        year="2020"/>
+                </Col>
+            </Row>
+            <Row>
                 <Col>
                     <PortfolioReference
                         tag="film production"
@@ -27,7 +41,9 @@ const Index = () => (
                         text="Audio mix & production of sound design for the CGI short film 'Heaven and Earth'"
                         button="Watch on YouTube"
                         image="img/portfolio/heavenandearth.jpg"
-                        link="https://www.youtube.com/watch?v=0yyJm-L-W5w&"/>
+                        link="https://www.youtube.com/watch?v=0yyJm-L-W5w&"
+                        year="2016"
+                    />
                 </Col>
                 <Col>
                     <PortfolioReference
@@ -36,7 +52,9 @@ const Index = () => (
                         text="Composition of film score and audio mix for 'Protectors of the Earth' (~1m Views)"
                         button="Watch on YouTube"
                         image="img/portfolio/legomovie.jpg"
-                        link="https://www.youtube.com/watch?v=zDKUIaeSmow&"/>
+                        link="https://www.youtube.com/watch?v=zDKUIaeSmow&"
+                        year="2015"
+                    />
                 </Col>
             </Row>
             <Row>

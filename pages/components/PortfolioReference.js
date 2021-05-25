@@ -12,15 +12,28 @@ export default props => {
                 <Card.Text>
                     {props.text}
                 </Card.Text>
-                <a href={props.link} target="_blank">
-                    <Button className="portfolioButton">{props.button}</Button>
-                </a>
+                <div className={"footer"}>
+                    <a href={props.link} target="_blank">
+                        <Button className="portfolioButton">{props.button}</Button>
+                    </a>
+                    <div className={"year"}>{props.year}</div>
+                </div>
             </Card.Body>
             <style jsx>{`
                 h2 {
                     font-size: 1rem;
                     color: #4582EC;
                     margin-top: -0.8rem;
+                }
+                
+                .footer {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .year {
+                    line-height: 2.4;
+                    opacity: 0.5;
                 }
             
                 a {

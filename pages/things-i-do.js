@@ -16,41 +16,10 @@ const Index = () => (
                     <h1>Things I Do</h1>
                     <ListGroup variant="flush">
                         <ListGroup.Item>
-                            <h6>SAP Development</h6>
-                            <ul>
-                                <li>
-                                    <a href="https://ui5.sap.com" target="_blank">SAPUI5</a> - Web Framework
-
-                                </li>
-                                <li>
-                                    <a href="https://experience.sap.com/fiori-design/" target="_blank">SAP Fiori</a> -
-                                    SAP UX Design Guidelines
-                                </li>
-                                <li>
-                                    ABAP OO
-                                </li>
-                            </ul>
-                        </ListGroup.Item>
-                        <ListGroup.Item>
-                            <h6>Web Development</h6>
-                            <ul>
-                                <li>
-                                    HTML5, CSS3, JavaScript (ES2017)
-                                </li>
-                                <li>
-                                    <a href="https://nodejs.org/" target="_blank">Node.js</a> - JavaScript runtime
-                                </li>
-                                <li>
-                                    <a href="https://nextjs.org/" target="_blank">Next.js</a> - React based framework
-                                    for server-rendered websites
-                                </li>
-                            </ul>
-                        </ListGroup.Item>
-                        <ListGroup.Item>
                             <h6>Music Production</h6>
                             using <a href="https://www.presonus.com/products/studio-one" target="_blank">Studio One</a> for more than 10 years. I've been experienced in producing a wide range
                             of Electronic Music
-                            genres but I also produce film score. <Link href="/music/novah" passHref><a>Read
+                            genres but I also produce film score. <Link href="/music" passHref><a>Read
                             more...</a></Link><br/>
                             <div className={"hbox"}>
                                 <div className={"column"}>
@@ -60,6 +29,7 @@ const Index = () => (
                                         <li>Audio Mixing</li>
                                         <li>Mastering</li>
                                         <li>Sound Design</li>
+                                        <li>Orchestration</li>
                                         <li>Music Theory</li>
                                     </ul>
                                 </div>
@@ -69,6 +39,7 @@ const Index = () => (
                                         <li>Synth-Pop</li>
                                         <li>EDM (House, Techno, <br/>Psytrance, Dubstep)</li>
                                         <li>Film Score</li>
+                                        <li>Jazz</li>
                                     </ul>
                                 </div>
                                 <div className={"column"}>
@@ -96,6 +67,40 @@ const Index = () => (
                                     </ul>
                                 </div>
                             </div>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <h6>SAP Development</h6>
+                            <div className={"hbox"}>
+                                <div className={"column"}>
+                                    <ul>
+                                        <li><a href="https://ui5.sap.com" target="_blank">SAPUI5</a> - Web Framework</li>
+                                        <li><a href="https://experience.sap.com/fiori-design/" target="_blank">SAP Fiori</a> -
+                                            SAP UX Design Guidelines
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className={"column"}>
+                                    <ul>
+                                        <li>ABAP OO</li>
+                                        <li>AMDP / SQL Script</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <h6>Web Development</h6>
+                            <ul>
+                                <li>
+                                    HTML5, CSS3, JavaScript (ES2017)
+                                </li>
+                                <li>
+                                    <a href="https://nodejs.org/" target="_blank">Node.js</a> - JavaScript runtime
+                                </li>
+                                <li>
+                                    <a href="https://nextjs.org/" target="_blank">Next.js</a> - React based framework
+                                    for server-rendered websites
+                                </li>
+                            </ul>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6>Graphic Design</h6>

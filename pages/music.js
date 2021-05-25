@@ -10,6 +10,9 @@ const Index = () => (
         <Title page="Music"/>
         <Container>
             <h1>My Current Projects</h1>
+            Because my musical interests vary a lot I have started several music projects.
+            <br/>
+            <br/>
             <MusicCard
                 title={"Geocentric Fools"}
                 subtitle={"Synth-Pop, Indie-Pop, 80s"}
