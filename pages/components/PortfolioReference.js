@@ -14,7 +14,8 @@ export default props => {
                 </Card.Text>
                 <div className={"footer"}>
                     <a href={props.link} target="_blank">
-                        <Button className="portfolioButton">{props.button}</Button>
+                        <Button style={props.button ? {display: "block"} : {display: "none"}}
+                                className="portfolioButton">{props.button}</Button>
                     </a>
                     <div className={"year"}>{props.year}</div>
                 </div>

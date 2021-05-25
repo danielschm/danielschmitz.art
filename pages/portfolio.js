@@ -13,8 +13,8 @@ const Index = () => (
             <Row>
                 <Col>
                     <PortfolioReference
-                        tag="film production"
-                        title="Cut & Grading"
+                        tag="cut & grading"
+                        title="Fatal Foolness (Music Video)"
                         text="The music video for 'Fatal Foolness' by Geocentric Fools"
                         button="Watch on YouTube"
                         image="img/portfolio/fatalfoolness.jpg"
@@ -24,21 +24,31 @@ const Index = () => (
                 </Col>
                 <Col>
                     <PortfolioReference
-                        tag="film production"
-                        title="Scoring"
-                        text="Composition of film score and audio mix for the Singold Whisky advertising film"
+                        tag="film score & audio mix"
+                        title="The Whiskey's Gambit"
+                        text="Singold Whiskey - The Whiskey's Gambit (Advertising Film)"
                         button="Watch on Vimeo"
                         image="img/portfolio/whisky.jpg"
                         link="https://vimeo.com/530317325"
-                        year="2020"/>
+                        year="2021"/>
                 </Col>
             </Row>
             <Row>
                 <Col>
                     <PortfolioReference
-                        tag="film production"
-                        title="Sound Design"
-                        text="Audio mix & production of sound design for the CGI short film 'Heaven and Earth'"
+                        tag="film score & audio mix"
+                        title="Eternal"
+                        text="Eternal (Short Film) - not released yet"
+                        // button="Watch on Vimeo"
+                        image="img/portfolio/eternal.jpg"
+                        link="https://vimeo.com/530317325"
+                        year="2020"/>
+                </Col>
+                <Col>
+                    <PortfolioReference
+                        tag="sound design & audio mix"
+                        title="Heaven and Earth"
+                        text="CGI-based Short Film 'Heaven and Earth'"
                         button="Watch on YouTube"
                         image="img/portfolio/heavenandearth.jpg"
                         link="https://www.youtube.com/watch?v=0yyJm-L-W5w&"
@@ -47,9 +57,9 @@ const Index = () => (
                 </Col>
                 <Col>
                     <PortfolioReference
-                        tag="film production"
-                        title="Scoring"
-                        text="Composition of film score and audio mix for 'Protectors of the Earth' (~1m Views)"
+                        tag="film score & audio mix"
+                        title="Protectors of the Earth"
+                        text="Protectors of the Earth (LEGO Short Film)"
                         button="Watch on YouTube"
                         image="img/portfolio/legomovie.jpg"
                         link="https://www.youtube.com/watch?v=zDKUIaeSmow&"
