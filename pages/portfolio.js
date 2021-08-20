@@ -39,9 +39,9 @@ const Index = () => (
                         tag="film score & audio mix"
                         title="Eternal"
                         text="Eternal (Short Film) - not released yet"
-                        // button="Watch on Vimeo"
+                        button="Watch on Vimeo"
                         image="img/portfolio/eternal.jpg"
-                        link="https://vimeo.com/530317325"
+                        link="https://vimeo.com/nicolaisagasser/eternal"
                         year="2020"/>
                 </Col>
                 <Col>
