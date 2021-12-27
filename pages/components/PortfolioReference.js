@@ -23,7 +23,8 @@ export default props => {
             <style jsx>{`
                 h2 {
                     font-size: 1rem;
-                    color: #4582EC;
+                    color: #17a2b8;
+                    opacity: 0.8;
                     margin-top: -0.8rem;
                 }
                 
