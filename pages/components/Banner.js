@@ -38,7 +38,7 @@ export default () => (
             {/*    </Button>*/}
             {/*</a>*/}
             <Link href="/music" passHref>
-                <a style={{"margin-left": 0}}>
+                <a style={{marginLeft: 0}}>
                     <Button className="bannerButton">
                         <span>My Music</span>
                     </Button>

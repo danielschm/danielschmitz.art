@@ -13,12 +13,6 @@ const MusicCard = props => (
                         <h2>{props.title}</h2>
                         <h3 className={"subtitle"}>{props.subtitle}</h3>
                         <div className="socialIcons">
-                            {/*<div className={"spotifyIcon"}>*/}
-                            {/*    <SocialIcon spotify={props.spotify} size="2x"/>*/}
-                            {/*</div>*/}
-                            {/*<div className={"facebookIcon"}>*/}
-                            {/*    <SocialIcon facebook={props.facebook} size="2x"/>*/}
-                            {/*</div>*/}
                             <div className={"more"}>Read More</div>
                         </div>
                     </div>

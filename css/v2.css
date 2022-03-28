@@ -1,0 +1,73 @@
+:root {
+    --light: white;
+    --headings: white;
+    --tint: #FBFF1F;
+    --tint-hover: #d2d519;
+    --secondary: #4ECDC4;
+    --text: #c1ced3;
+    --background: #081721;
+    --foreground: #1a4f70;
+    --heading-font: 'Syncopate', sans-serif;
+    --gradient-opacity: 0.3;
+}
+
+:root {
+    --font-mono: "Roboto Mono", monospace;
+    --transition: all 50ms ease;
+}
+
+* {
+    transition: var(--transition);
+}
+
+html, body, #__next {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: var(--background);
+    background: linear-gradient(340deg, rgba(8,23,33,var(--gradient-opacity)) 0%, rgba(9,41,56,var(--gradient-opacity)) 50%, rgba(0,66,110,var(--gradient-opacity)) 90%, rgba(0,96,161,var(--gradient-opacity)) 100%);
+}
+
+body {
+    color: var(--text);
+    line-height: 1.8;
+}
+
+a {
+    color: var(--secondary);
+}
+
+a svg {
+    width: 3rem;
+}
+
+a:hover {
+    color: var(--tint);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--headings);
+    font-family: var(--heading-font);
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 12%;
+}
+
+@media (max-width: 2000px) {
+    section {
+        padding: 0 7%;
+    }
+}
+
+@media (max-width: 1700px) {
+    section {
+        padding: 0 1%;
+    }
+}
