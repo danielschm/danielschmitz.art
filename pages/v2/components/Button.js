@@ -26,7 +26,6 @@ const Button = props => (
         
             .outer {
                 margin: 40px 0;
-                transition: var(--transition);
             }
         
             .inner {
@@ -36,10 +35,12 @@ const Button = props => (
                 font-weight: 700;
                 cursor: pointer;
                 user-select: none;
+                transition: var(--transition);
             }
             
             .inner.normal {
                 border-color: var(--secondary);
+                background: var(--background-button);
             }
             
             .inner.emphasized {

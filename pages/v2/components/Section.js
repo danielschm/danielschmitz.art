@@ -1,15 +1,16 @@
 const Section = props => (
-    <section className={props.maxWidth ? "maxWidth" : ""}>
-        <div>
+    <section>
+        <div className={props.maxWidth ? "maxWidth" : ""}>
             {props.children}
         </div>
         <style jsx>{`
           section {
-            padding: 2rem 0;
+            padding-top: 2rem;
             height: 100%;
             width: 100%;
             display: flex;
             text-align: justify;
+            justify-content: center;
           }
 
           section div {

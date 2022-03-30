@@ -1,15 +1,13 @@
 import Link from "next/link";
 
-const ShowcaseObject = props => (
+const MusicCard = props => (
     <div>
-        <Link href={"/music/" + props.link} passHref>
+        <Link href={"/v2/music/" + props.link} passHref>
             <div className={"musicCard"}>
-                <div className={"cardBody"}>
-                    <div className={"titleBox"}>
-                        <span className={"title"}>{props.title}</span>
-                        <span className={"subtitle"}>{props.subtitle}</span>
-                        <span className={"year"}>{props.year}</span>
-                    </div>
+                <div className={"titleBox"}>
+                    <span className={"title"}>{props.title}</span>
+                    <span className={"subtitle"}>{props.subtitle}</span>
+                    <span className={"year"}>{props.year}</span>
                 </div>
                 <div className={"logo"}>
                     <img src={"../img/" + props.img}/>
@@ -22,7 +20,9 @@ const ShowcaseObject = props => (
             border-radius: 10px;
             display: flex;
             justify-content: space-between;
+            background: var(--background-button);
             cursor: pointer;
+            transition: var(--transition);
           }
 
           .musicCard:hover {
@@ -43,10 +43,6 @@ const ShowcaseObject = props => (
             font-weight: 700;
           }
 
-          .subtitle {
-
-          }
-
           .year {
             opacity: 0.5;
           }
@@ -60,4 +56,4 @@ const ShowcaseObject = props => (
     </div>
 );
 
-export default ShowcaseObject;
+export default MusicCard;

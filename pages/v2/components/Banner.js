@@ -3,8 +3,7 @@ import GlitchText from "./GlitchText";
 const Banner = props => (
     <section>
         <div>
-            <a id={props.anchor}/>
-            <h1><span className={"first"}>Hey, it's</span><GlitchText text={"Daniel"}/></h1>
+            <h1><span className={"first"}>Hey, I'm</span><GlitchText text={"Daniel"}/></h1>
             {props.children}
         </div>
         <style jsx>{`

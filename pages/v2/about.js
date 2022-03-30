@@ -3,9 +3,11 @@ import Link from "next/link";
 
 export default () => (
     <Page page={"About"} navBack={true}>
-        <p>My name is Daniel Schmitz and I'm a <i>product owner</i>, <i>music
-            producer</i> and <i>composer</i> from Cologne, Germany.</p>
-
+        <div className={"profile"}>
+            <img src={"/img/avatar2.jpg"}/>
+            <p>My name is Daniel Schmitz and I'm a <i>product owner</i>, <i>music
+                producer</i> and <i>composer</i> from Cologne, Germany.</p>
+        </div>
         <h2>Product Owner</h2>
         <p>
             I work for the SAP partner company <a href={"https://www.gicom-group.com"} target={"_blank"}>gicom
@@ -31,5 +33,33 @@ export default () => (
             my greatest inspiration:
             John Williams, Thomas Newman and Gareth Coker.
         </p>
+        <style jsx>{`
+          .profile {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1rem;
+          }
+
+          @media (max-width: 550px) {
+            .profile {
+              flex-direction: column;
+            }
+
+            .profile img {
+              margin-bottom: 0.5rem;
+            }
+          }
+
+          .profile p {
+            max-width: 20rem;
+          }
+
+          .profile img {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 10px;
+            margin-right: 1rem;
+          }
+        `}</style>
     </Page>
 );

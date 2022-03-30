@@ -41,13 +41,13 @@ const BannerLink = props => (
             padding: 4px;
             text-align: center;
             width: 100%;
-            //background: var(--foreground);
             border: 1px solid var(--foreground);
             border-radius: 5px;
             font-weight: 700;
             cursor: pointer;
             user-select: none;
             transition: all 250ms ease;
+            background: var(--background-button);
           }
 
           .inner.emphasized {

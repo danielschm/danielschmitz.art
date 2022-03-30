@@ -2,6 +2,8 @@ import Page from "./components/Page";
 import Section from "./components/Section";
 import Banner from "./components/Banner";
 import BannerLink from "./components/BannerLink";
+import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Index = () => (
     <Page>
@@ -17,6 +19,7 @@ const Index = () => (
         <style jsx>{`
           .links {
             display: flex;
+            max-width: 80rem;
             width: 100%;
             justify-content: space-around;
           }

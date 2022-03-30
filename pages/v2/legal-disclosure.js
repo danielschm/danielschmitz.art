@@ -1,9 +1,9 @@
-import Container from "react-bootstrap/Container";
 import Page from "./components/Page";
-import Title from "./components/includes/Title";
+import openMail from "./components/Mail";
 
 export default () => (
-    <Page page={"Legal Disclosure"} navBack={true}>
+    <Page page={""} navBack={true}>
+        <h2>Legal Disclosure</h2>
         <p>
             Information in accordance with Section 5 TMG
         </p>
@@ -22,9 +22,7 @@ export default () => (
         <p>
             <b>Contact Information</b>
             <br/>
-            Telephone: +49 176 57826463
-            <br/>
-            E-Mail: <a href="mailto:contact@danielschmitz.art">contact@danielschmitz.art</a>
+            <a onClick={openMail}>E-Mail</a>
             <br/>
             Internet address: <a href="https://danielschmitz.art"
                                  target="_blank">https://danielschmitz.art</a>
@@ -75,5 +73,14 @@ export default () => (
                           target="_blank">Englisch-Übersetzung
         translate-24h.de</a>
         <br/><br/>
+        <style jsx>{`
+          a {
+            cursor: pointer;
+          }
+
+          * {
+            text-align: left;
+          }
+        `}</style>
     </Page>
 )

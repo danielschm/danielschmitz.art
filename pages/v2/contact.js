@@ -9,6 +9,7 @@ import openMail from "./components/Mail";
 
 export default () => (
     <Page page={"Contact"} navBack={true}>
+        <br/>
         <div className="socialIcons">
             <a onClick={openMail}
                title={"Contact me via email"} target="_blank">
@@ -35,8 +36,16 @@ export default () => (
         <style jsx>{`
           .socialIcons {
             margin-bottom: 1.5rem;
-            display: flex;
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: 1fr 1fr;
             flex-direction: column;
+          }
+
+          @media (max-width: 500px) {
+            .socialIcons {
+              grid-template-columns: 1fr;
+            }
           }
 
           .socialIcons a:first-child {
@@ -45,7 +54,9 @@ export default () => (
 
           .socialIcons a {
             padding: 1rem;
-            gap: 1rem;
+            border: 1px solid var(--foreground);
+            border-radius: 10px;
+            gap: 2rem;
             display: flex;
             align-items: center;
             cursor: pointer;
