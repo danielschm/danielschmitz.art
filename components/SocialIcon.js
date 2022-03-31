@@ -37,7 +37,7 @@ export default props => {
     return (
         <a href={props.link} target="_blank" className={props.size === "small" ? "small" : "big"}>
             <div className={"outer"}>
-                <FontAwesomeIcon icon={icon} size={props.size === "small" ? "2x" : "3x"}/>
+                <FontAwesomeIcon icon={icon} size={props.size === "small" ? "3x" : "3x"}/>
             </div>
             <style jsx>{`
               .big {
