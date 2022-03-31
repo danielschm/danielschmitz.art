@@ -73,8 +73,8 @@ export default () => (
           }
 
           .socialIcons .icon {
-            height: 3rem;
-            width: 3rem;
+            height: 3em;
+            width: 3em;
           }
 
         `}</style>
