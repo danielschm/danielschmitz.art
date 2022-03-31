@@ -35,22 +35,19 @@ export default props => {
     }
 
     return (
-        <a href={props.link} target="_blank">
+        <a href={props.link} target="_blank" className={props.size === "small" ? "small" : "big"}>
             <div className={"outer"}>
-                <div className={props.size === "small" ? "small" : "big"}>
-                    <FontAwesomeIcon icon={icon}/>
-                </div>
+                <FontAwesomeIcon icon={icon} size={props.size === "small" ? "2x" : "3x"}/>
             </div>
             <style jsx>{`
+              .big {
+                height: 3rem;
+                width: 3rem;
+              }
+              
               .small {
                 height: 2rem;
-                display: flex;
-                justify-content: center;
-              }
-
-              .big {
-                display: flex;
-                justify-content: center;
+                width: 2rem;
               }
 
               .outer {

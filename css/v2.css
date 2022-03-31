@@ -33,10 +33,6 @@ a {
     transition: var(--transition);
 }
 
-a svg {
-    width: 3rem !important;
-}
-
 a:hover {
     color: var(--tint);
 }

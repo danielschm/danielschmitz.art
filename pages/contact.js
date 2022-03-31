@@ -13,23 +13,33 @@ export default () => (
         <div className="socialIcons">
             <MailLink
                 title={"Contact me via email"} target="_blank">
-                <FontAwesomeIcon className={"icon"} icon={faEnvelope}/>
+                <div className={"icon"}>
+                    <FontAwesomeIcon className={"icon"} icon={faEnvelope} size={"3x"}/>
+                </div>
                 Email
             </MailLink>
             <a href="https://linkedin.com/in/daniel-schmitz-dev" target="_blank">
-                <FontAwesomeIcon className={"icon"} icon={faLinkedin}/>
+                <div className={"icon"}>
+                    <FontAwesomeIcon className={"icon"} icon={faLinkedin} size={"3x"}/>
+                </div>
                 LinkedIn
             </a>
             <a href="https://github.com/danielschm" target="_blank">
-                <FontAwesomeIcon className={"icon"} icon={faGithub}/>
+                <div className={"icon"}>
+                    <FontAwesomeIcon className={"icon"} icon={faGithub} size={"3x"}/>
+                </div>
                 GitHub
             </a>
             <a href="https://instagram.com/daniel_schm" target="_blank">
-                <FontAwesomeIcon className={"icon"} icon={faInstagram}/>
+                <div className={"icon"}>
+                    <FontAwesomeIcon className={"icon"} icon={faInstagram} size={"3x"}/>
+                </div>
                 Instagram
             </a>
             <a href="https://twitter.com/danschmitzdev" target="_blank">
-                <FontAwesomeIcon className={"icon"} icon={faTwitter}/>
+                <div className={"icon"}>
+                    <FontAwesomeIcon className={"icon"} icon={faTwitter} size={"3x"}/>
+                </div>
                 Twitter
             </a>
         </div>
@@ -60,6 +70,11 @@ export default () => (
             display: flex;
             align-items: center;
             cursor: pointer;
+          }
+
+          .socialIcons .icon {
+            height: 3rem;
+            width: 3rem;
           }
 
         `}</style>
