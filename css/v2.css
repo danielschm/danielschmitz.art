@@ -34,7 +34,7 @@ a {
 }
 
 a svg {
-    width: 3rem;
+    width: 3rem !important;
 }
 
 a:hover {
