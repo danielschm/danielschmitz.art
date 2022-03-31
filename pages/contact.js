@@ -72,7 +72,7 @@ export default () => (
             cursor: pointer;
           }
 
-          .socialIcons .icon {
+          .socialIcons .icon:not(svg) {
             height: 3em;
             width: 3em;
           }
