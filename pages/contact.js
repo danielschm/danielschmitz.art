@@ -75,6 +75,8 @@ export default () => (
           .socialIcons .icon:not(svg) {
             height: 3em;
             width: 3em;
+            display: flex;
+            justify-content: center;
           }
 
         `}</style>
