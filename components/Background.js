@@ -27,7 +27,6 @@ export default ({backdrop}) => (
             height: 100%;
             width: 100%;
             position: fixed;
-            //background-image: url("/img/px_by_Gre3g.png");
             background-image: url("/img/clouds.jpg");
             background-repeat: repeat;
             background-blend-mode: luminosity;
