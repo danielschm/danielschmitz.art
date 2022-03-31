@@ -3,13 +3,13 @@ import Link from "next/link";
 export default () => (
     <footer className={"footer"}>
         <div className={"link"}>
-            <Link href={"/v2/credits"}>Credits</Link>
+            <Link href={"/credits"}>Credits</Link>
         </div>
         <div className={"link"}>
-            <Link href={"/v2/legal-disclosure"}>Legal Disclosure</Link>
+            <Link href={"/legal-disclosure"}>Legal Disclosure</Link>
         </div>
         <div className={"link"}>
-            <Link href={"/v2/privacy"}>Privacy</Link>
+            <Link href={"/privacy"}>Privacy</Link>
         </div>
         <style jsx>{`
           .footer {

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const MusicCard = props => (
     <div>
-        <Link href={"/v2/music/" + props.link} passHref>
+        <Link href={"/music/" + props.link} passHref>
             <div className={"musicCard"}>
                 <div className={"titleBox"}>
                     <span className={"title"}>{props.title}</span>
@@ -10,7 +10,7 @@ const MusicCard = props => (
                     <span className={"year"}>{props.year}</span>
                 </div>
                 <div className={"logo"}>
-                    <img src={"../img/" + props.img}/>
+                    <img src={"./img/" + props.img}/>
                 </div>
             </div>
         </Link>

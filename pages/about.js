@@ -1,130 +1,65 @@
-import Page from "./components/Page";
-import Title from "./components/includes/Title";
-
+import Page from "../components/Page";
 import Link from "next/link";
 
-import ListGroup from "react-bootstrap/ListGroup";
-import CustomContainer from "./components/CustomContainer";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+export default () => (
+    <Page page={"About"} navBack={true}>
+        <div className={"profile"}>
+            <img src={"/img/avatar2.jpg"}/>
+            <p>My name is Daniel Schmitz and I'm a <i>product owner</i>, <i>music
+                producer</i> and <i>composer</i> from Cologne, Germany.</p>
+        </div>
+        <h2>Product Owner</h2>
+        <p>
+            I work for the SAP partner company <a href={"https://www.gicom-group.com"} target={"_blank"}>gicom
+            AG</a>.
+            My background is in the software development (5+ years). As a product owner I am responsible for
+            defining the requirements of a gicom solution based on SAP technology including SAP Fiori/SAPUI5,
+            ABAP and HANA. In my daily work I use Jira & Confluence.
+        </p>
 
-const Index = () => (
-    <Page>
-        <Title page="About"/>
-        <Container>
-            <CustomContainer>
-                <div className={"wrapper"}>
-                    <h1>About</h1>
-                    <div className="avatar">
-                        <div className={"image"}>
-                            <img src="/img/avatar2.jpg"/>
-                        </div>
-                        <div className="avatarText">
-                            <div>
-                                My name is Daniel Schmitz and I'm a <b>Product Owner</b> and <br/><b>Music
-                                Producer</b> living in Cologne, Germany.
-                            </div>
-                        </div>
-                    </div>
-                    <div className={"text"}>
-                        <h2>Education</h2>
-                        <p>
-                            <ul className="education">
-                                <li><strong>Master of Science</strong> (2021), Information Management <br/><a
-                                    href="https://weiterbildung.uni-muenster.de/"
-                                    target="_blank">WWU Universität Münster</a></li>
-                                <li><strong>University Certificate</strong>, Data Science<br/><a
-                                    href="https://weiterbildung.uni-muenster.de/"
-                                    target="_blank">WWU Universität Münster</a></li>
-                                <li><strong>Bachelor of Science</strong>, Business Information Technology <br/><a
-                                    href="https://www.fhdw.de/"
-                                    target="_blank">FHDW
-                                    Fachhochschule der Wirtschaft</a></li>
-                            </ul>
-                        </p>
-                        <h2>Hobbies</h2>
-                        <p>
-                            In my free time, I'm a passionate Music Producer & DJ but also interested in
-                            all kinds of creative work.
-                            For almost 10 years I have been working as a music producer and audio engineer on several
-                            projects including <Link href="/portfolio" passHref><a>short films and YouTube
-                            videos</a></Link>. But I've spent most of my time with creating music for my various 'artist
-                            aliases' which you can discover in the <Link href="/music" passHref><a>music
-                            area</a></Link> of this website.
-                        </p>
-                    </div>
-                </div>
-            </CustomContainer>
-        </Container>
+        <h2>Music Producer</h2>
+        <p>
+            I've been making music all my life and producing music for over 10 years. During this time I have
+            gained experience with a wide range of genres which has made me very flexible. Besides production I
+            have specialized in mixing, mastering and sound design. Feel free to <Link href={"/music"}>check
+            out</Link> my music.
+        </p>
+
+        <h2>Composer</h2>
+        <p>
+            I created my first film score in 2015. Since then I worked on various <Link href={"/scoring"}>short
+            film projects</Link>. My style can be described as emotional, harmonious and imaginative. But since
+            I have experience in many different genres, I am very flexible for any request. The following composers are
+            my greatest inspiration:
+            John Williams, Thomas Newman and Gareth Coker.
+        </p>
         <style jsx>{`
-            .avatar {
-                position: relative;
-                display: flex;
-            }
-            
-            .wrapper {
-                position: relative;
+          .profile {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1rem;
+          }
+
+          @media (max-width: 550px) {
+            .profile {
+              flex-direction: column;
             }
 
-            h2 {
-                font-size: 1.5rem;
+            .profile img {
+              margin-bottom: 0.5rem;
             }
+          }
 
-            .text {
-                position: absolute;
-                top: 15rem;
-                left: 0rem;
-            }
-            
-            @media (max-width: 390px) {
-                .avatar {
-                    display: block; 
-                }
-                
-                .avatar img {
-                    float: none;
-                }
-            }
-            
-            .avatarText {
-                border-top: 2px solid rgba(255,255,255,0.3);
-                padding: 0.5rem 0 0 11rem;
-                display: flex;
-                align-items: center;
-                width: 100%;
-            }
-            
-            .education li {
-                line-height: 1.3rem;
-                margin-bottom: 1.3rem;
-            }
-            
-            .education a {
-                font-size: 0.9rem;
-            }
-            
-            .avatar .image {
-                position: absolute;
-                top: 0;
-                left: 0;
-                border-top: 2px solid rgba(255,255,255, 0.8);
-                height: 10rem;
-                width: 10rem;
-                min-width: 10rem;
-                min-height: 10rem;
-                float: left;
-                margin-right: 2rem;
-                margin-bottom: 1.5rem;
-            }
-            
-            .avatar .image img {
-                width: 100%;
-                height: 100%;
-            }
-            
+          .profile p {
+            max-width: 20rem;
+          }
+
+          .profile img {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 10px;
+            margin-right: 1rem;
+          }
         `}</style>
     </Page>
 );
-
-export default Index;

@@ -29,6 +29,15 @@ const Banner = props => (
           section div {
             width: 100%;
           }
+
+          @media (max-width: 500px) {
+            h1 {
+              display: flex;
+              flex-direction: column;
+              font-size: 55px;
+              text-align: center;
+            }
+          }
         `}</style>
     </section>
 );

@@ -1,5 +1,5 @@
-import Page from "./components/Page";
-import ScoreCard from "./components/ScoreCard";
+import Page from "../components/Page";
+import ScoreCard from "../components/ScoreCard";
 import Link from "next/link";
 
 export default () => (
@@ -7,7 +7,7 @@ export default () => (
         <p>
             In this list you can find all public films I composed the score for. You can also check out my orchestral /
             score music on <a href={"https://open.spotify.com/artist/3mLcEp0Na8mP6ZyX7abcSG?si=uQU5lS8QTyi32LjO1axCHg"}
-                              target={"_blank"}>Spotify</a> or check out the other social media links of my <Link href={"/v2/music/film-score"}>film composer profile</Link>.
+                              target={"_blank"}>Spotify</a> or check out the other social media links of my <Link href={"/music/film-score"}>film composer profile</Link>.
         </p>
         <div className={"cards"}>
             <ScoreCard

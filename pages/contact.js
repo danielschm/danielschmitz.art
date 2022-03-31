@@ -1,21 +1,21 @@
-import Page from "./components/Page";
+import Page from "../components/Page";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons/faTwitter";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons/faEnvelope";
-import openMail from "./components/Mail";
+import MailLink from "../components/Mail";
 
 export default () => (
     <Page page={"Contact"} navBack={true}>
         <br/>
         <div className="socialIcons">
-            <a onClick={openMail}
-               title={"Contact me via email"} target="_blank">
+            <MailLink
+                title={"Contact me via email"} target="_blank">
                 <FontAwesomeIcon className={"icon"} icon={faEnvelope}/>
                 Email
-            </a>
+            </MailLink>
             <a href="https://linkedin.com/in/daniel-schmitz-dev" target="_blank">
                 <FontAwesomeIcon className={"icon"} icon={faLinkedin}/>
                 LinkedIn
@@ -33,7 +33,7 @@ export default () => (
                 Twitter
             </a>
         </div>
-        <style jsx>{`
+        <style jsx global>{`
           .socialIcons {
             margin-bottom: 1.5rem;
             display: grid;

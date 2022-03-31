@@ -25,11 +25,11 @@ const NavigationItem = ({text, href}) => (
 const Header = () => (
     <nav className={"side-padding"}>
         <ul>
-            <NavigationItem text={"Home"} href={"/v2"}/>
-            <NavigationItem text={"About"} href={"/v2/about"}/>
-            <NavigationItem text={"Music Production"} href={"/v2/music"}/>
-            <NavigationItem text={"Film Score"} href={"/v2/score"}/>
-            <NavigationItem text={"Development"} href={"/v2/development"}/>
+            <NavigationItem text={"Home"} href={"/"}/>
+            <NavigationItem text={"About"} href={"/about"}/>
+            <NavigationItem text={"Music Production"} href={"/music"}/>
+            <NavigationItem text={"Film Score"} href={"/score"}/>
+            <NavigationItem text={"Development"} href={"/development"}/>
         </ul>
         <style jsx>{`
           nav {

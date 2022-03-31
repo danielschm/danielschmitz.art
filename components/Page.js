@@ -17,7 +17,7 @@ const Page = props => (
                     <h1>{props.page}</h1>
                     {props.children}
                     <div className={props.navBack ? "buttonWrapper" : "hidden"}>
-                        <Button emphasized={false} href={typeof (props.navBack) === 'string' ? props.navBack : "/v2"}>
+                        <Button emphasized={false} href={typeof (props.navBack) === 'string' ? props.navBack : "/"}>
                             Back
                         </Button>
                     </div>

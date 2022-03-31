@@ -1,23 +1,16 @@
 import MusicPage from "./MusicPage";
-import Title from "../components/includes/Title";
-
-import Container from "react-bootstrap/Container";
-import SocialIcon from "../components/SocialIcon";
 
 const Index = () => (
-    <MusicPage>
-        <Title page="NOVAH"/>
-        <h1>NOVAH</h1>
-        <h2 className="subtitle">Electronic Music & Beats</h2>
-        <div className="socialIcons">
-            <SocialIcon spotify="https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8" size="2x"/>
-            <SocialIcon soundcloud="https://www.soundcloud.com/novahofficial" size="2x"/>
-            <SocialIcon facebook="https://www.facebook.com/novahmusic" size="2x"/>
-            <SocialIcon youtube="https://www.youtube.com/c/novahmusic" size="2x"/>
-            <SocialIcon twitter="https://www.twitter.com/novahofficial" size="2x"/>
-        </div>
+    <MusicPage
+        page={"NOVAH"}
+        img={"novah.jpg"}
+        subtitle={"Electronic Beats"}
+        spotify={"https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8"}
+        soundcloud={"https://www.soundcloud.com/novahofficial"}
+        facebook={"https://www.facebook.com/novahmusic"}
+        youtube={"https://www.youtube.com/c/novahmusic"}
+        twitter={"https://www.twitter.com/novahofficial"}>
         <div className="description">
-            <img src="/img/music/novah.jpg"/>
             <p>
                 When I started producing music in 2012 I called myself NovahMedia. Some time later I changed
                 the name to NOVAH. "NOVAH", which is derived from the root word "new" in a lot of languages,
@@ -34,8 +27,7 @@ const Index = () => (
             <p>
                 In 2015 I started producing Future House and my songs got more attention than ever before.
                 For instance, my <a href="https://soundcloud.com/novahofficial/faded-novah-remix"
-                                    target="_blank">remix of ZHU's 'Faded'</a>
-                got streamed more than 35k times.
+                                    target="_blank">remix of ZHU's 'Faded'</a> got streamed more than 35k times.
                 Because of my interest for many various Electronic Music sub genres, in 2017, I decided to
                 create three new aliases Dasattva, Nitamas and Elrajas for different styles of Electronic Music.
             </p>
