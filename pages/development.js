@@ -10,6 +10,6 @@ export default () => (
             <li>next.js</li>
         </ul>
         <br/>
-        <p>Work In Progress...</p>
+        <p>Work In Progress... </p>
     </Page>
 );
