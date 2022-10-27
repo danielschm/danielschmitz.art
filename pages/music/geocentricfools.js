@@ -9,7 +9,7 @@ const Index = () => (
         soundcloud={"https://www.soundcloud.com/geocentricfools"}
         instagram={"https://www.instagram.com/geocentricfools"}
         facebook={"https://www.facebook.com/geocentricfools"}
-        youtube={"https://www.youtube.com/channel/UCfN8lJJeDvrQzxjKiMRgZvw"}
+        youtube={"https://www.youtube.com/channel/UC7PEKkhCaDoLMfEo0H-apeg"}
         twitter={"https://www.twitter.com/geocentricfools"}>
         <div className="description">
             Geocentric Fools is a Synth-Pop duo consisting of Matt Platypus and Dan Leo (me). <br/>
