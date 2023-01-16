@@ -6,7 +6,7 @@ const ScoreCard = props => (
                     <img src={"../img/" + props.img}/>
                 </div>
                 <div className={"titleBox"}>
-                    <span className={"title"}>{props.title}</span>
+                    <h2 className={"title"}>{props.title}</h2>
                     <span className={"subtitle"}>{props.subtitle}</span>
                     <span className={"year"}>{props.year}</span>
                 </div>
@@ -39,9 +39,9 @@ const ScoreCard = props => (
           }
 
           .title {
-            font-family: var(--heading-font);
             color: var(--headings);
             font-weight: 700;
+            margin-top: 0.2rem;
           }
 
           .year {

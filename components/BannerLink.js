@@ -21,7 +21,7 @@ const BannerLink = props => (
         </div>
         <style jsx>{`
           .wrapper {
-            width: 19%;
+            width: 24%;
             display: flex;
           }
 
@@ -43,11 +43,12 @@ const BannerLink = props => (
             width: 100%;
             border: 1px solid var(--foreground);
             border-radius: 5px;
-            font-weight: 700;
+            font-weight: 600;
             cursor: pointer;
             user-select: none;
             transition: all 250ms ease;
             background: var(--background-button);
+            color: var(--text);
           }
 
           .inner.emphasized {

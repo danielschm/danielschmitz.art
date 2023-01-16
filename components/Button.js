@@ -36,6 +36,7 @@ const Button = props => (
             cursor: pointer;
             user-select: none;
             transition: var(--transition);
+            color: var(--text);
           }
 
           .inner.normal {
@@ -44,14 +45,14 @@ const Button = props => (
           }
 
           .inner.emphasized {
-            background: var(--tint);
-            color: var(--dark);
+            background: var(--secondary);
+            color: var(--background);
           }
 
           .inner:hover {
-            background: var(--tint-hover);
+            background: var(--tint);
             border-color: rgba(0, 0, 0, 0);
-            color: var(--dark);
+            color: var(--background);
           }
         `}</style>
     </div>);

@@ -1,16 +1,15 @@
 export default ({backdrop}) => (
     <>
-        <div className="bg-gradient"/>
-        <div className="bg-color"/>
-        <div className="bg-texture"/>
         {
             backdrop ?
                 <>
+                    <div className="bg"/>
                     <div className="bg-blur"/>
                     <div className="backdrop"/>
                 </>
                 :
                 <>
+                    <div className="bg"/>
                 </>
         }
         <style jsx>{`
@@ -22,33 +21,16 @@ export default ({backdrop}) => (
             position: fixed;
           }
 
-          .bg-texture {
-            z-index: -3;
+          .bg {
+            z-index: -2;
             height: 100%;
             width: 100%;
             position: fixed;
-            background-image: url("/img/clouds.jpg");
-            background-repeat: repeat;
-            background-blend-mode: luminosity;
-            mix-blend-mode: overlay;
-            opacity: 10%;
-          }
-
-          .bg-color {
-            z-index: -4;
-            height: 100%;
-            width: 100%;
-            position: fixed;
-            background: var(--background);
-            opacity: 80%;
-          }
-
-          .bg-gradient {
-            z-index: -5;
-            height: 100%;
-            width: 100%;
-            position: fixed;
-            background: linear-gradient(340deg, black, var(--foreground));
+            background-image: url("/img/background2.jpg");
+            background-position: 40% 80%;
+            background-repeat: no-repeat;
+            background-color: var(--background);
+            background-attachment: fixed;
           }
 
           .bg-blur {
@@ -56,16 +38,16 @@ export default ({backdrop}) => (
             height: 100%;
             width: 100%;
             position: fixed;
-            //background-image: url("/img/background.jpg");
+            background-image: url("/img/background2.jpg");
             background-position: 40% 80%;
             background-repeat: no-repeat;
             background-color: var(--background);
             background-attachment: fixed;
-            -webkit-filter: blur(5px);
-            -moz-filter: blur(5px);
-            -o-filter: blur(5px);
-            -ms-filter: blur(5px);
-            filter: blur(5px);
+            -webkit-filter: blur(8px);
+            -moz-filter: blur(8px);
+            -o-filter: blur(8px);
+            -ms-filter: blur(8px);
+            filter: blur(8px);
           }
         `}</style>
     </>

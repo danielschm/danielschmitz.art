@@ -5,7 +5,7 @@ const MusicCard = props => (
         <Link href={"/music/" + props.link} passHref>
             <div className={"musicCard"}>
                 <div className={"titleBox"}>
-                    <span className={"title"}>{props.title}</span>
+                    <h2 className={"title"}>{props.title}</h2>
                     <span className={"subtitle"}>{props.subtitle}</span>
                     <span className={"year"}>{props.year}</span>
                 </div>
@@ -23,6 +23,7 @@ const MusicCard = props => (
             background: var(--background-button);
             cursor: pointer;
             transition: var(--transition);
+            color: var(--text);
           }
 
           .musicCard:hover {
@@ -38,9 +39,9 @@ const MusicCard = props => (
           }
 
           .title {
-            font-family: var(--heading-font);
             color: var(--headings);
             font-weight: 700;
+            margin-top: 0.2rem;
           }
 
           .year {

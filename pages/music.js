@@ -9,12 +9,12 @@ export default () => (
         </p>
         <div className={"cards"}>
             <MusicCard
-                title={"Geocentric Fools"}
-                subtitle={"Synth-Pop"}
-                img={"music/geocentricfools.jpg"}
-                link={"geocentricfools"}
-                spotify={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK"}
-                facebook={"https://www.facebook.com/geocentricfools"}/>
+                title={"Elrajas"}
+                subtitle={"Techno"}
+                img={"music/elrajas.jpg"}
+                link={"elrajas"}
+                spotify={"https://open.spotify.com/artist/1Dtnpnv1YJ5sMz2cV1yOy6?si=7jb9q03oQWab7GNoHIyueQ"}
+                facebook={"https://www.facebook.com/elrajasmusic"}/>
             <MusicCard
                 title={"Daniel Schmitz"}
                 subtitle={"Film Score"}
@@ -23,19 +23,19 @@ export default () => (
                 spotify={"https://open.spotify.com/artist/3mLcEp0Na8mP6ZyX7abcSG?si=uQU5lS8QTyi32LjO1axCHg"}
                 facebook={"https://www.facebook.com/danielschmitzmusic"}/>
             <MusicCard
+                title={"Geocentric Fools"}
+                subtitle={"Synth-Pop"}
+                img={"music/geocentricfools.jpg"}
+                link={"geocentricfools"}
+                spotify={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK"}
+                facebook={"https://www.facebook.com/geocentricfools"}/>
+            <MusicCard
                 title={"NOVAH"}
                 subtitle={"Electronic Beats"}
                 img={"music/novah.jpg"}
                 link={"novah"}
                 spotify={"https://open.spotify.com/artist/3vyCP0adxYp2fP4w9ZzVL8"}
                 facebook={"https://www.facebook.com/novahmusic"}/>
-            <MusicCard
-                title={"Elrajas"}
-                subtitle={"Techno"}
-                img={"music/elrajas.jpg"}
-                link={"elrajas"}
-                spotify={"https://open.spotify.com/artist/1Dtnpnv1YJ5sMz2cV1yOy6?si=7jb9q03oQWab7GNoHIyueQ"}
-                facebook={"https://www.facebook.com/elrajasmusic"}/>
             <MusicCard
                 title={"Dasattva"}
                 subtitle={"Psytrance"}

@@ -72,6 +72,10 @@ export default () => (
             cursor: pointer;
           }
 
+          .socialIcons a:hover {
+            border-color: var(--secondary);
+          }
+
           .socialIcons .icon:not(svg) {
             height: 3em;
             width: 3em;

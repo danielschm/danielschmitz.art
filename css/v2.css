@@ -7,10 +7,27 @@
     --text: #c1ced3;
     --background: #081721;
     --background-button: rgba(8, 23, 33, 0.57);
-    --foreground: #1a4f70;
-    --heading-font: 'Syncopate', sans-serif;
+    /*--foreground: #1a4f70;*/
+    --foreground: rgba(255,255,255,0.1);
+    --foreground: rgba(65, 199, 192, 0.34);
     --gradient-opacity: 1;
 }
+
+/*:root {*/
+/*    --light: white;*/
+/*    --headings: white;*/
+/*    --tint: #1FF8FF;*/
+/*    --tint-hover: #19b6bb;*/
+/*    --secondary: #1FF8FF;*/
+/*    --secondary-hover: #19b6bb;*/
+/*    --text: #c1ced3;*/
+/*    --background: #010205;*/
+/*    !*--background: #020C1A;*!*/
+/*    --background-button: rgba(0,0,0,0.3);*/
+/*    --foreground: rgba(255,255,255,0.05);*/
+/*    --heading-font: 'Syncopate', sans-serif;*/
+/*    --gradient-opacity: 1;*/
+/*}*/
 
 
 :root {
@@ -20,10 +37,10 @@
 
 html, body, #__next {
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
 }
 
 body {
+    color: #c7c7c7;
     color: var(--text);
     line-height: 1.8;
 }
@@ -39,7 +56,6 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--headings);
-    font-family: var(--heading-font);
 }
 
 h2 {

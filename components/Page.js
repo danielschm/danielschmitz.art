@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Includes from './includes/Includes';
 import Title from "./includes/Title";
 import Background from "./Background";
@@ -8,7 +7,7 @@ import Footer from "./Footer";
 
 const Page = props => (
     <>
-        <Background backdrop={props.backdrop}/>
+        <Background backdrop={props.navBack}/>
         <div className="page">
             <Title page={props.page}/>
             <Includes/>

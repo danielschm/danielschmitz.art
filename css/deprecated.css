@@ -1,0 +1,62 @@
+html, body, #__next {
+    height: 100%;
+}
+
+body {
+    color: #c7c7c7;
+    color: var(--text);
+    background-image: url("/img/background-small.jpg");
+    background-position: 40% 80%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    color: var(--headings);
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+.portfolioButton {
+    color: #ffffff;
+    background-color: #02050a;
+    border-color: var(--blue);
+}
+
+.portfolioButton:hover {
+    background-color: #050c18;
+    border-color: #ffffff;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: -0.6rem 0 1rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.socialIcons {
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+}
+
+.socialIcons a {
+    color: rgba(255, 255, 255, 0.88);
+    margin: 0 1rem;
+    transition: color 300ms ease;
+}
+
+.socialIcons a:first-of-type {
+    margin-left: 0;
+}
+
+.socialIcons a:hover {
+    color: var(--blue);
+}

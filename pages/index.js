@@ -9,7 +9,7 @@ const Index = () => (
                 <BannerLink emphasized={true} href={"/contact"}>Contact</BannerLink>
                 <BannerLink href={"/music"}>Music</BannerLink>
                 <BannerLink href={"/scoring"}>Scoring</BannerLink>
-                <BannerLink href={"/development"}>Development</BannerLink>
+                {/*<BannerLink href={"/development"}>Development</BannerLink>*/}
                 <BannerLink href={"/about"}>About</BannerLink>
             </div>
         </Banner>

@@ -69,10 +69,10 @@ export default () => (
         The materials from these pages are copyrighted and any
         unauthorized use may violate copyright laws.
         <br/><br/>
-        <i>Quelle: </i><a href="http://www.translate-24h.de"
-                          target="_blank">Englisch-Übersetzung
-        translate-24h.de</a>
-        <br/><br/>
+        <b>EU Dispute Resolution</b>
+        <br/>
+        The European Commission provides a platform for online dispute resolution (OS)
+        at <a target={"_blank"} href={"https://ec.europa.eu/consumers/odr"}>https://ec.europa.eu/consumers/odr</a>.
         <style jsx>{`
           a {
             cursor: pointer;
