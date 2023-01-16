@@ -3,6 +3,7 @@ import '../css/v2.css';
 
 import {Open_Sans, Syncopate} from '@next/font/google';
 
+
 const openSans = Open_Sans({subsets: ['latin']});
 const syncopate = Syncopate({
     weight: ['400', '700'],
