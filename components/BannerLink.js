@@ -21,7 +21,7 @@ const BannerLink = props => (
         </div>
         <style jsx>{`
           .wrapper {
-            width: 24%;
+            width: 19%;
             display: flex;
           }
 

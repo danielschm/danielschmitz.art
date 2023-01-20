@@ -10,8 +10,7 @@ export default () => (
         </div>
         <h2>Product Owner</h2>
         <p>
-            I work for the SAP partner company <a href={"https://www.gicom-group.com"} target={"_blank"}>gicom
-            AG</a>.
+            I work for the SAP partner company gicom AG.
             My background is in the software development (5+ years). As a product owner I am responsible for
             defining the requirements of a gicom solution based on SAP technology including SAP Fiori/SAPUI5,
             ABAP and HANA. In my daily work I use Jira & Confluence.
@@ -20,9 +19,9 @@ export default () => (
         <h2>Music Producer</h2>
         <p>
             I've been making music all my life and producing music for over 10 years. During this time I have
-            gained experience with a wide range of genres which has made me very flexible. Besides production I
-            have specialized in mixing, mastering and sound design. Feel free to <Link href={"/music"}>check
-            out</Link> my music.
+            gained experience with a variety of genres which has made me very flexible. Besides production I
+            have specialized in mixing, mastering and sound design. Feel free to check out <Link href={"/music"}>my
+            music</Link>.
         </p>
 
         <h2>Composer</h2>

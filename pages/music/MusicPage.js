@@ -12,7 +12,7 @@ export default props => (
             <div className="socialIcons">
                 <div className={"inner"}>
                     {
-                        ["spotify", "soundcloud", "facebook", "youtube", "twitter", "mixcloud"].map(e => {
+                        ["spotify", "soundcloud", "facebook", "youtube", "twitter", "mixcloud", "instagram"].map(e => {
                             return props[e] ? <SocialIcon icon={e} link={props[e]} size="small"/> : <></>
                         })
                     }

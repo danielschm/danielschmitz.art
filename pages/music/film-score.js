@@ -11,11 +11,11 @@ const Index = () => (
         facebook={"https://www.facebook.com/danielschmitzmusic"}
         youtube={"https://www.youtube.com/channel/UCfN8lJJeDvrQzxjKiMRgZvw"}>
         <div className="description">
-            As the artist "Daniel Schmitz" I'm sharing my film score compositions. I especially like composing
-            Fantasy, Celtic and Emotional Symphonic Orchestral Music.<br/>
-            For the last {new Date().getFullYear() - 2014} years I have been involved in <Link href="/scoring"
-                                                                                               passHref><a>film
-            projects</a></Link> where I have produced the score or been responsible for the sound design and sound
+            As the artist "Daniel Schmitz" I'm sharing my film score compositions. I focus on emotional symphonic
+            orchestral music but I love combining my skills from other genres to flexibly adapt my music to needs of the
+            film.<br/>
+            For the last {new Date().getFullYear() - 2014} years I have worked on <Link href="/scoring" passHref>film
+            projects</Link> where I produced the score or was responsible for the sound design and sound
             mixing.
         </div>
     </MusicPage>

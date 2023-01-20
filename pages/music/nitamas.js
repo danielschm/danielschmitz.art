@@ -12,8 +12,8 @@ const Index = () => (
         twitter={"https://www.twitter.com/nitamasmusic"}
         mixcloud={"https://www.mixcloud.com/nitamas"}>
         <div className="description">
-            Nitamas was created in 2018 and includes everything concerned with Dubstep / Drum'n'Base / Trap / Bass
-            Music combined with ethnic, oriental and asian sounds.
+            Nitamas is about everything bass-related. The alias was created in 2018 and covers everything concerned with
+            Dubstep / DnB / Trap usually combined with ethnic, oriental and asian sounds.
         </div>
     </MusicPage>
 );

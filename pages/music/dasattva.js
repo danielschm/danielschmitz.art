@@ -1,4 +1,5 @@
 import MusicPage from "./MusicPage";
+import Link from "next/link";
 
 const Index = () => (
     <MusicPage
@@ -12,8 +13,10 @@ const Index = () => (
         youtube="https://www.youtube.com/channel/UC0XCV9CaE3kTwpsZk0UeNSw"
         facebook={"https://www.facebook.com/dasattva"}>
         <div className="description">
-            Dasattva was created in 2018 and includes everything concerned with Goa / Psy / Psytrance in combination
-            with Film Score.
+            Under the name of Dasattva I publish Goa / Psy / Psytrance tracks in combination with film score. Just
+            like <Link href="/music/elrajas" passHref>Elrajas</Link> and <Link href="/music/Nitamas"
+                                                                               passHref>Nitamas</Link> the alias was
+            created in 2018.
         </div>
     </MusicPage>
 );
