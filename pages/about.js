@@ -4,7 +4,7 @@ import Link from "next/link";
 export default () => (
     <Page page={"About"} navBack={true}>
         <div className={"profile"}>
-            <img src={"/img/avatar2.jpg"}/>
+            <img src={"/img/avatar3.jpg"}/>
         </div>
         <p>My name is Daniel Schmitz and I'm a <i>product owner</i>, <i>music
                 producer</i> and <i>composer</i> from Cologne, Germany.</p>
