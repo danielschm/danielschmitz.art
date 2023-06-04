@@ -5,17 +5,13 @@ export default () => (
     <Page page={"About"} navBack={true}>
         <div className={"profile"}>
             <img src={"/img/avatar2.jpg"}/>
-            <p>My name is Daniel Schmitz and I'm a <i>product owner</i>, <i>music
-                producer</i> and <i>composer</i> from Cologne, Germany.</p>
         </div>
-        <h2>Product Owner</h2>
+        <p>My name is Daniel Schmitz and I'm a <i>product owner</i>, <i>music
+                producer</i> and <i>composer</i> from Cologne, Germany.</p>
+        {/* <h2>Product Owner</h2>
         <p>
-            I work for the SAP partner company gicom AG.
-            My background is in the software development (5+ years). As a product owner I am responsible for
-            defining the requirements of a gicom solution based on SAP technology including SAP Fiori/SAPUI5,
-            ABAP and HANA. In my daily work I use Jira & Confluence.
-        </p>
-
+            I work for REWE digital.
+        </p> */}
         <h2>Music Producer</h2>
         <p>
             I've been making music all my life and producing music for over 10 years. During this time I have
@@ -50,7 +46,7 @@ export default () => (
           }
 
           .profile p {
-            max-width: 20rem;
+            // max-width: 20rem;
           }
 
           .profile img {

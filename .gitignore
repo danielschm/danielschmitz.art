@@ -1,2 +1,5 @@
 .now
 .vercel
+.next
+node_modules
+yarn-error.log
