@@ -18,7 +18,7 @@ export default () => (
             <MusicCard
                 title={"Dan Leo"}
                 subtitle={"Synth Pop"}
-                img={"danleo.jpg"}
+                img={"danleo.JPG"}
                 link={"danleo"}/>
             <MusicCard
                 title={"Daniel Schmitz"}
