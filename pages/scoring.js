@@ -17,7 +17,7 @@ export default () => (
                 link="https://vimeo.com/842868438"
                 year="2023"/>
             <ScoreCard
-                title="Ressurectio"
+                title="Resurrectio"
                 subtitle="Short Film by Nicolai Sagasser"
                 img="portfolio/resurrectio.jpg"
                 link="https://vimeo.com/839658964"
