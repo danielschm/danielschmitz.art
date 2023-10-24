@@ -10,7 +10,7 @@ const MusicCard = props => (
                     <span className={"year"}>{props.year}</span>
                 </div>
                 <div className={"logo"}>
-                    <img src={"./img/" + props.img}/>
+                    <img src={"./img/music/v2/" + props.img}/>
                 </div>
             </div>
         </Link>

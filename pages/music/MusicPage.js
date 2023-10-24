@@ -6,7 +6,7 @@ export default props => (
         <div className="musicPage">
             <h2 className="subtitle">{props.subtitle}</h2>
             <div className={"content"}>
-                <img src={"/img/music/" + props.img}/>
+                <img src={"/img/music/v2/" + props.img}/>
                 {props.children}
             </div>
             <div className="socialIcons">

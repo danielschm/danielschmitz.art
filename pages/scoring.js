@@ -11,16 +11,28 @@ export default () => (
         </p>
         <div className={"cards"}>
             <ScoreCard
+                title="Black China"
+                subtitle="Short Film by Nicolai Sagasser"
+                img="portfolio/blackchina.jpg"
+                link="https://vimeo.com/842868438"
+                year="2023"/>
+            <ScoreCard
+                title="Ressurectio"
+                subtitle="Short Film by Nicolai Sagasser"
+                img="portfolio/resurrectio.jpg"
+                link="https://vimeo.com/839658964"
+                year="2022"/>
+            <ScoreCard
                 title="The Whiskey's Gambit"
                 subtitle="Advertising Film by Nicolai Sagasser"
                 img="portfolio/whisky.jpg"
-                link="https://vimeo.com/659653665"
+                link="https://vimeo.com/829526898"
                 year="2021"/>
             <ScoreCard
                 title="Eternal"
                 subtitle="Short Film by Nicolai Sagasser"
                 img="portfolio/eternal.jpg"
-                link="https://vimeo.com/nicolaisagasser/eternal"
+                link="https://vimeo.com/807593452"
                 year="2020"/>
             <ScoreCard
                 title="Heaven and Earth"

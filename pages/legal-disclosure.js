@@ -22,10 +22,9 @@ export default () => (
         <p>
             <b>Contact Information</b>
             <br/>
-            <MailLink>E-Mail</MailLink>
+            E-Mail: contact@danielschmitz.art
             <br/>
-            Internet address: <a href="https://danielschmitz.art"
-                                 target="_blank">https://danielschmitz.art</a>
+            Tel: +49 176 57826463
             <br/>
         </p>
         <h2>Disclaimer</h2>

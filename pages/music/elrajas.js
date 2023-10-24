@@ -18,6 +18,8 @@ const Index = () => (
             continued to release singles in that style.<br/>
             In 2022 we had our first official gig in Karlsruhe playing in front of
             300 people to play our own music. You can <a href={"https://www.youtube.com/watch?v=d-UjVLVON6Q&"} target={"_blank"}>listen to the set on YouTube</a>.
+            <br/>
+            Our Secret Location Set (08/2023) was captured on camera: <a href={"https://www.youtube.com/watch?v=8-3yv2xrbsk"} target={"_blank"}>Check it on YouTube as well</a>.
         </div>
     </MusicPage>
 );
