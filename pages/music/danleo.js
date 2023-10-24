@@ -3,7 +3,7 @@ import MusicPage from "./MusicPage";
 const Index = () => (
     <MusicPage
         page={"Dan Leo"}
-        img={"danleo.jpg"}
+        img={"danleo.JPG"}
         subtitle={"Synth Pop"}
         spotify={"https://open.spotify.com/intl-de/artist/6DkFRv8NQ7lP5CUJsvhPRx?si=_8HZfh5MQASMBQAaCnNhqA"}
         youtube={"https://www.youtube.com/@DanLeoMusic"}
